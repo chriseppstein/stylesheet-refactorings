@@ -4,90 +4,181 @@
 div#page { width:946px; margin:20px auto; padding:30px 17px 10px 17px; background:url(http://colly.com/images/site/graph-tile.png) center top; }
 div#branding { margin:0 0 18px 0; padding:10px 0 18px 0; background:url(http://colly.com/images/site/div-akacolly.png) repeat-x bottom center; }
 div#content_wrapper { overflow:auto; clear:both; margin:0 3px 35px 0; padding:40px 0 70px 0; border:1px solid #DDD; -webkit-box-shadow: 1px 1px 7px rgba(153, 153, 153, 0.2); -moz-box-shadow: 1px 1px 7px rgba(153, 153, 153, 0.2); box-shadow: 1px 1px 7px rgba(153, 153, 153, 0.2); border-radius:5px; -webkit-border-radius:5px; -moz-border-radius:5px; background:url(http://colly.com/images/site/content.png); }
-div#content_pri { float:right; width:516px; margin:0; padding:5px 110px 0 87px;  border-left:1px dashed #DDD; }
 div#content_sec { float:left; width:196px; margin:0; padding:0 25px 0 0; }
 
-div#content_pri ul { list-style-type:none; margin:0; padding:0; }
-div#content_pri ol { margin:0; padding:0; }
-div#content_pri ul li, div#content_pri ol li { width:100%; padding:2px 0 2px 0px; border-bottom:1px dashed #CCC; font-size:15px; }
-.archive #content_pri ul li.date-heading { margin:30px 0 0px 0; padding-bottom:10px; font-weight:normal; font-size:18px; }
-div#content_pri ul li:first-child { border-top:1px dashed #CCC; }
-.archive div#content_pri ul li:first-child { border-top:0; }
-div#content_pri ul li span, div#content_pri ol li span { display:inline; font-size:11px; font-style:italic; color:#999; }
-div#content_pri p { font-size:15px; color:#333; }
-div#content_pri p a:link { text-decoration:underline; color:#ba1820; }
-div#content_pri ul li a:link, div#content_pri ol li a:link { text-decoration:none; color:#ba1820; }
-div#content_pri p a:visited { text-decoration:underline; color:#d0656a; }
-div#content_pri ul li a:visited, div#content_pri ol li a:visited { text-decoration:none; color:#d0656a; }
-div#content_pri p a:hover, div#content_pri ul li a:hover, div#content_pri ol li a:hover { text-decoration:underline; color:#666; }
+div#content_pri {
+  float:right;
+  width:516px;
+  margin:0;
+  padding:5px 110px 0 87px;
+  border-left:1px dashed #DDD;
 
-div#content_pri p.sub { clear:both; margin:0 0 44px 0; padding:0; font-weight:normal; font-size:15px; color:#333; text-transform:uppercase; }
-.archive div#content_pri p.sub { margin:0px 0 44px 0; }
-div#content_pri p.sub span { margin:0; padding:0; font-size:10px; }
-.contact div#content_pri p.sub span, .journal#multiple div#content_pri p.sub span, .archive div#content_pri p.sub span { font-size:15px; color:#ba1820; }
-.contact div#content_pri p.sub span span { text-transform:lowercase; font-size:13px; color:#333; }
-div#content_pri p.intro { font-size:18px; font-weight:normal; line-height:26px; }
-div#content_pri p.intro:first-letter { float:left; margin:0 3px 0 0; font-size:57px; line-height:92%; }
-div#content_pri p.blurb:first-letter { float:left; margin:0 3px 0 0; font-size:48px; line-height:92%; }
-@-moz-document url-prefix() {
-div#content_pri p.intro:first-letter { float:left; margin:8px 3px 0 0; font-size:55px; line-height:22%; }
-div#content_pri p.blurb:first-letter { float:left; margin:7px 3px 0 0; font-size:45px; line-height:22%; }
+  ul { list-style-type:none; margin:0; padding:0; }
+  ol { margin:0; padding:0; }
+  ul li,
+  ol li { width:100%; padding:2px 0 2px 0px; border-bottom:1px dashed #CCC; font-size:15px; }
+
+  .archive & ul li.date-heading { margin:30px 0 0px 0; padding-bottom:10px; font-weight:normal; font-size:18px; }
+  ul li:first-child { border-top:1px dashed #CCC; }
+  .archive & ul li:first-child { border-top:0; }
+
+  ul, ol {
+    li span { display:inline; font-size:11px; font-style:italic; color:#999; }
+  }
+  p {
+    font-size:15px; color:#333;
+    a:link { text-decoration:underline; color:#ba1820; }
+  }
+  ul, ol {
+    li a:link { text-decoration:none; color:#ba1820; }
+  }
+  p a:visited { text-decoration:underline; color:#d0656a; }
+  ul, ol {
+    li a:visited { text-decoration:none; color:#d0656a; }
+  }
+  p, ul li, ol li{
+    a:hover {
+      text-decoration:underline; color:#666;
+    }
+  }
 }
-div#content_pri p.paginate {  margin:0; padding:10px 0 10px 0; font-size:12px; font-weight:normal; font-style:normal; text-transform:uppercase; letter-spacing:1px; color:#333; border-top:1px solid #CCC; border-bottom:1px solid #DDD; }
-div#content_pri p.paginate a { padding:1px 3px 1px 3px; text-decoration:none; }
 
+p.sub {
 
-div#content_pri p.meta { margin:0 0 45px 0; padding:6px 0 6px 0; font-size:13px; font-style:italic; color:#666; line-height:19px; border-top:1px solid #DDD; border-bottom:1px solid #DDD; }
-div#content_pri img { margin:06px 0 2px 0; padding:7px; background:#FFFAFA; border:1px solid #ddd; -webkit-box-shadow: 1px 1px 7px rgba(153, 153, 153, 0.2); -moz-box-shadow: 1px 1px 5px rgba(153, 153, 153, 0.2); box-shadow: 1px 1px 7px rgba(153, 153, 153, 0.2); }
-div#content_pri object { display:block; margin:6px 0 12px 0; padding:7px; background:#FFFAFA; border:1px solid #ddd; -webkit-box-shadow: 1px 1px 7px rgba(153, 153, 153, 0.2); -moz-box-shadow: 1px 1px 5px rgba(153, 153, 153, 0.2); box-shadow: 1px 1px 7px rgba(153, 153, 153, 0.2); }
-div#content_pri img.gravatar { float:right; margin:15px 0 5px 15px; padding:3px; border:1px solid #CCC; }
-div#content_pri cite { display:block; margin-top:-13px; margin-bottom:20px;padding:0; font-size:12px; }
-div#content_pri cite span { color:#999; }
-div#content_pri blockquote { margin:0; padding:0 0 0 15px; border-left:3px solid #EEE; }
-div#content_pri blockquote p { font-size:16px; font-style:italic; color:#666; margin-bottom:7px; }
-div#content_pri blockquote cite { padding:0; color:#666; }
-div#content_pri #post { padding-bottom:80px; background:url(http://colly.com/images/site/underline-flourish.png) repeat-x center bottom; }
-div#content_pri #responses { margin-top:50px; }
-div#content_pri #responses p.response { margin:0; padding:10px 0 3px 0; font-style:italic; font-size:15px; color:#999; }
-div#content_pri .com-a, div#content_pri .com-b, div#content_pri .comm-colly { clear:both; margin:20px 0 0 0; padding:0px 10px 0 10px; border:1px solid #DDD; -webkit-box-shadow: 1px 1px 7px rgba(153, 153, 153, 0.2); -moz-box-shadow: 1px 1px 5px rgba(153, 153, 153, 0.2); box-shadow: 1px 1px 7px rgba(153, 153, 153, 0.2); }
-div#content_pri .comm-a { background:#f9f8f8; }
-div#content_pri .comm-b { background:#f3f1f1; }
-div#content_pri .comm-colly { background:#fcf5ee; }
-div#content_pri .com-a p, div#content_pri .com-b p, div#content_pri .comm-colly p { margin-right:70px; }
-div#content_pri p.response a.comment_id { text-decoration:none; }
-div#content_pri #respond { margin-top:50px; }
-div#content_pri #respond p { color:#666; font-size:13px; }
-div#content_pri p span, div#content_pri p.intro span, div#content_pri p.blurb span { position:relative; margin:0; padding:0 15px 0 2px; color:#666; font-size:10px; line-height:0; }
+  div#content_pri & {
+    clear:both;
+    margin:0 0 44px 0;
+    padding:0;
+    font-weight:normal;
+    font-size:15px;
+    color:#333;
+    text-transform:uppercase;
 
-div#content_pri p span sup, div#content_pri p.intro span sup, div#content_pri p.blurb span sup { position:absolute; top:0px; left:2px; margin:0; padding:0; color:#666; font-size:10px; line-height:0; }
-div#content_pri p#footnote { padding:10px 0 10px 0; margin:60px 0 0 0; line-height:125%; font-size:12px; font-weight:normal; font-style:normal; text-transform:uppercase; letter-spacing:1px; line-height:120%; color:#666; border-top:1px solid #DDD; }
-.journal div#content_pri p#footnote { margin:30px 0 0 0; }
-div#content_pri ol#footnotes { padding:0px 0 10px 0; color:#666; font-size:11px; margin:0px 0 0 0; line-height:125%; border-bottom:1px solid #DDD; }
-div#content_pri ol#footnotes li { font-size:11px; border:0; }
-div#content_pri ol#footnotes a.scrollto { margin-top:-2px; padding:0 3px 0 2px; font-size:9px; text-decoration:none; }
-div#content_pri ol#footnotes li span { display:block; margin-bottom:5px; font-size:12px; font-weight:normal; font-style:normal; text-transform:uppercase; letter-spacing:1px; line-height:120%; }
+    .archive & { margin:0px 0 44px 0; }
 
-div#content_pri p.notes { padding:10px 0 10px 0; color:#666; font-size:11px; margin:60px 0 0 0; line-height:125%; border-top:1px solid #DDD; border-bottom:1px solid #DDD; }
-div#content_pri p.notes span { display:block; margin-bottom:5px; font-size:12px; font-weight:normal; font-style:normal; text-transform:uppercase; letter-spacing:1px; line-height:120%; }
+    span { margin:0; padding:0; font-size:10px; }
 
-div#content_sec p { margin:4px 0 0 25px; padding:10px 0 9px 0; font-size:14px; font-style:italic; color:#666; text-align:right; line-height:19px; border-top:1px dashed #CCC; }
-.biography div#content_sec p { border-top:0px; }
-div#content_sec p.yearly { margin:0 0 25px 25px; font-style:normal; }
-div#content_sec ul { list-style-type:none; margin:4px 0 35px 25px; padding:0; }
-div#content_sec ul li { text-align:right; width:100%; padding:2px 0 2px 0px; font-size:13px; border-bottom:1px dashed #CCC; }
-div#content_sec ul li:first-child { border-top:1px dashed #CCC; }
-div#content_sec p a:link, div#content_sec ul li a:link { text-decoration:none; color:#ba1820; }
-div#content_sec p a:visited, div#content_sec ul li a:visited { text-decoration:none; color:#d0656a; }
-div#content_sec p a:hover, div#content_sec ul li a:hover { text-decoration:underline; color:#666; }
-div#content_sec img { background:#FFFAFA; margin:0 0 0 30px; padding:7px; border:1px solid #eee; -webkit-box-shadow: 1px 1px 7px rgba(153, 153, 153, 0.2); -moz-box-shadow: 1px 1px 7px rgba(153, 153, 153, 0.2); box-shadow: 1px 1px 7px rgba(153, 153, 153, 0.2); -webkit-transform: rotate(-2deg); -moz-transform: rotate(-2deg); -o-transform: rotate(-2deg); }
-div#content_sec blockquote { text-align:right; margin:20px 0 10px 0; padding:0; background:url(http://colly.com/images/site/quote.png) no-repeat 10px 3px; }
-div#content_sec blockquote p { margin:0 0 5px 45px; padding:0; font-size:16px; font-style:italic; color:#999; border-bottom:0px; }
-div#content_sec blockquote cite { padding:0 0 0 0; color:#666; font-size:13px; }
-div#content_sec a.j-prev:link, div#content_sec a.j-prev:visited { text-indent:-9999px; float:left; width:41px; height:63px; margin:0 0 82px 37px;  background:url(http://colly.com/images/site/prev.png) no-repeat 0 0; border-bottom:0px solid #000; }
-div#content_sec a.j-prev:hover { background:url(http://colly.com/images/site/prev.png) no-repeat 0 -63px; }
-div#content_sec span.j-no { float:left; width:82px; height:33px; margin:0 0 20px 0; padding:30px 0 0 0; color:#FFF; font-size:17px; background:url(http://colly.com/images/site/j-no.png) no-repeat 0 0; text-align:center; }
-div#content_sec a.j-next:link, div#content_sec a.j-next:visited { text-indent:-9999px; float:left; width:36px; height:63px; margin:0 0 82px 0;  background:url(http://colly.com/images/site/next.png) no-repeat 0 0; border-bottom:0px solid #000 }
-div#content_sec a.j-next:hover { background:url(http://colly.com/images/site/next.png) no-repeat 0 -63px; }
-div#content_sec p.home-link { text-align:left; float:left; margin:0 0 82px 78px; padding:0; width:82px; height:63px; background:url(http://colly.com/images/site/home-c-back.png) no-repeat 0 0; border:0; }
-div#content_sec p.home-link a:link, div#content_sec p.home-link a:visited { display:block; text-indent:-9999px; width:82px; height:63px; background:url(http://colly.com/images/site/home-c.png) no-repeat 0 0; }
-div#content_sec p.home-link a:hover { background:url(http://colly.com/images/site/home-c.png) no-repeat 0 -63px; }
+    .contact &,
+    .journal#multiple &,
+    .archive & {
+      span {
+        font-size:15px; color:#ba1820;
+      }
+    }
+    .contact & span span {
+      text-transform:lowercase; font-size:13px; color:#333;
+    }
+  }
+  
+  p.intro { font-size:18px; font-weight:normal; line-height:26px; }
+  p.intro:first-letter { float:left; margin:0 3px 0 0; font-size:57px; line-height:92%; }
+  p.blurb:first-letter { float:left; margin:0 3px 0 0; font-size:48px; line-height:92%; }
+
+}
+
+@-moz-document url-prefix() {
+  div#content_pri p.intro:first-letter { float:left; margin:8px 3px 0 0; font-size:55px; line-height:22%; }
+  div#content_pri p.blurb:first-letter { float:left; margin:7px 3px 0 0; font-size:45px; line-height:22%; }
+}
+
+div#content_pri {
+  p.paginate {  margin:0; padding:10px 0 10px 0; font-size:12px; font-weight:normal; font-style:normal; text-transform:uppercase; letter-spacing:1px; color:#333; border-top:1px solid #CCC; border-bottom:1px solid #DDD; }
+  p.paginate a { padding:1px 3px 1px 3px; text-decoration:none; }
+
+  p.meta { margin:0 0 45px 0; padding:6px 0 6px 0; font-size:13px; font-style:italic; color:#666; line-height:19px; border-top:1px solid #DDD; border-bottom:1px solid #DDD; }
+  img { margin:06px 0 2px 0; padding:7px; background:#FFFAFA; border:1px solid #ddd; -webkit-box-shadow: 1px 1px 7px rgba(153, 153, 153, 0.2); -moz-box-shadow: 1px 1px 5px rgba(153, 153, 153, 0.2); box-shadow: 1px 1px 7px rgba(153, 153, 153, 0.2); }
+  object { display:block; margin:6px 0 12px 0; padding:7px; background:#FFFAFA; border:1px solid #ddd; -webkit-box-shadow: 1px 1px 7px rgba(153, 153, 153, 0.2); -moz-box-shadow: 1px 1px 5px rgba(153, 153, 153, 0.2); box-shadow: 1px 1px 7px rgba(153, 153, 153, 0.2); }
+  img.gravatar { float:right; margin:15px 0 5px 15px; padding:3px; border:1px solid #CCC; }
+  cite { display:block; margin-top:-13px; margin-bottom:20px;padding:0; font-size:12px; }
+  cite span { color:#999; }
+  blockquote { margin:0; padding:0 0 0 15px; border-left:3px solid #EEE; }
+  blockquote p { font-size:16px; font-style:italic; color:#666; margin-bottom:7px; }
+  blockquote cite { padding:0; color:#666; }
+  #post { padding-bottom:80px; background:url(http://colly.com/images/site/underline-flourish.png) repeat-x center bottom; }
+  #responses { margin-top:50px; }
+  #responses p.response { margin:0; padding:10px 0 3px 0; font-style:italic; font-size:15px; color:#999; }
+  .com-a,
+  .com-b,
+  .comm-colly { clear:both; margin:20px 0 0 0; padding:0px 10px 0 10px; border:1px solid #DDD; -webkit-box-shadow: 1px 1px 7px rgba(153, 153, 153, 0.2); -moz-box-shadow: 1px 1px 5px rgba(153, 153, 153, 0.2); box-shadow: 1px 1px 7px rgba(153, 153, 153, 0.2); }
+  .comm-a { background:#f9f8f8; }
+  .comm-b { background:#f3f1f1; }
+  .comm-colly { background:#fcf5ee; }
+  .com-a p,
+  .com-b p,
+  .comm-colly p { margin-right:70px; }
+  p.response a.comment_id { text-decoration:none; }
+  #respond { margin-top:50px; }
+  #respond p { color:#666; font-size:13px; }
+  p span,
+  p.intro span,
+  p.blurb span { position:relative; margin:0; padding:0 15px 0 2px; color:#666; font-size:10px; line-height:0; }
+
+  p span sup,
+  p.intro span sup,
+  p.blurb span sup { position:absolute; top:0px; left:2px; margin:0; padding:0; color:#666; font-size:10px; line-height:0; }
+  p#footnote { padding:10px 0 10px 0; margin:60px 0 0 0; line-height:125%; font-size:12px; font-weight:normal; font-style:normal; text-transform:uppercase; letter-spacing:1px; line-height:120%; color:#666; border-top:1px solid #DDD; }
+
+  .journal & p#footnote { margin:30px 0 0 0; }
+  ol#footnotes { padding:0px 0 10px 0; color:#666; font-size:11px; margin:0px 0 0 0; line-height:125%; border-bottom:1px solid #DDD; }
+  ol#footnotes li { font-size:11px; border:0; }
+  ol#footnotes a.scrollto { margin-top:-2px; padding:0 3px 0 2px; font-size:9px; text-decoration:none; }
+  ol#footnotes li span { display:block; margin-bottom:5px; font-size:12px; font-weight:normal; font-style:normal; text-transform:uppercase; letter-spacing:1px; line-height:120%; }
+
+  p.notes { padding:10px 0 10px 0; color:#666; font-size:11px; margin:60px 0 0 0; line-height:125%; border-top:1px solid #DDD; border-bottom:1px solid #DDD; }
+  p.notes span { display:block; margin-bottom:5px; font-size:12px; font-weight:normal; font-style:normal; text-transform:uppercase; letter-spacing:1px; line-height:120%; }
+
+}
+
+div#content_sec {
+
+  p { margin:4px 0 0 25px; padding:10px 0 9px 0; font-size:14px; font-style:italic; color:#666; text-align:right; line-height:19px; border-top:1px dashed #CCC; }
+  .biography & p { border-top:0px; }
+  p.yearly { margin:0 0 25px 25px; font-style:normal; }
+  ul {
+    list-style-type:none; margin:4px 0 35px 25px; padding:0;
+    li {
+      text-align:right; width:100%; padding:2px 0 2px 0px; font-size:13px; border-bottom:1px dashed #CCC;
+      &:first-child { border-top:1px dashed #CCC; }
+    }
+  }
+  p, ul li {
+    a:link { text-decoration:none; color:#ba1820; }
+    a:visited { text-decoration:none; color:#d0656a; }
+    a:hover { text-decoration:underline; color:#666; }
+  }
+  img { background:#FFFAFA; margin:0 0 0 30px; padding:7px; border:1px solid #eee; -webkit-box-shadow: 1px 1px 7px rgba(153, 153, 153, 0.2); -moz-box-shadow: 1px 1px 7px rgba(153, 153, 153, 0.2); box-shadow: 1px 1px 7px rgba(153, 153, 153, 0.2); -webkit-transform: rotate(-2deg); -moz-transform: rotate(-2deg); -o-transform: rotate(-2deg); }
+  blockquote {
+    text-align:right;
+    margin:20px 0 10px 0;
+    padding:0;
+    background:url(http://colly.com/images/site/quote.png) no-repeat 10px 3px;
+    p { margin:0 0 5px 45px; padding:0; font-size:16px; font-style:italic; color:#999; border-bottom:0px; }
+    cite { padding:0 0 0 0; color:#666; font-size:13px; }
+  }
+  a.j-prev{
+    &:link,
+    &:visited { text-indent:-9999px; float:left; width:41px; height:63px; margin:0 0 82px 37px;  background:url(http://colly.com/images/site/prev.png) no-repeat 0 0; border-bottom:0px solid #000; }
+    &:hover { background:url(http://colly.com/images/site/prev.png) no-repeat 0 -63px; }
+  }
+  span.j-no { float:left; width:82px; height:33px; margin:0 0 20px 0; padding:30px 0 0 0; color:#FFF; font-size:17px; background:url(http://colly.com/images/site/j-no.png) no-repeat 0 0; text-align:center; }
+  a.j-next{
+    &:link,
+    &:visited { text-indent:-9999px; float:left; width:36px; height:63px; margin:0 0 82px 0;  background:url(http://colly.com/images/site/next.png) no-repeat 0 0; border-bottom:0px solid #000 }
+    &:hover { background:url(http://colly.com/images/site/next.png) no-repeat 0 -63px; }
+  }
+  p.home-link {
+    text-align:left;
+    float:left;
+    margin:0 0 82px 78px;
+    padding:0;
+    width:82px;
+    height:63px;
+    background:url(http://colly.com/images/site/home-c-back.png) no-repeat 0 0;
+    border:0;
+
+    a:link,
+    a:visited { display:block; text-indent:-9999px; width:82px; height:63px; background:url(http://colly.com/images/site/home-c.png) no-repeat 0 0; }
+    a:hover { background:url(http://colly.com/images/site/home-c.png) no-repeat 0 -63px; }
+  }
+
+}
