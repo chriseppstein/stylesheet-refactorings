@@ -5,7 +5,6 @@
 */
 /* 1.BODY and PAGE
 ---------------------------------------------------------------------- */
-/* line 10, ../sass/screen.scss */
 body {
   font-family: "Times New Roman", Times, Cambria, serif;
   font-size: 13px;
@@ -16,14 +15,12 @@ body {
 
 /* 2.DEFAULT STYLING
 ---------------------------------------------------------------------- */
-/* line 15, ../sass/screen.scss */
 ul li a span.strap {
   display: block;
   text-align: center;
   font-style: italic;
 }
 
-/* line 16, ../sass/screen.scss */
 ul li a span.label {
   display: block;
   text-align: center;
@@ -36,61 +33,51 @@ ul li a span.label {
   color: #000;
 }
 
-/* line 17, ../sass/screen.scss */
 ul li span.label span {
   display: inline;
   font-size: 15px;
 }
 
-/* line 18, ../sass/screen.scss */
 ul li span.label span.kern-a {
   display: inline;
   font-size: 15px;
   letter-spacing: 0px;
 }
 
-/* line 19, ../sass/screen.scss */
 ul li span.label span.kern {
   display: inline;
   font-size: 12px;
   letter-spacing: 0px;
 }
 
-/* line 20, ../sass/screen.scss */
 ul li a:link, ul li a:visited, ol li a:link, ol li a:visited {
   color: #999;
   text-decoration: none;
 }
 
-/* line 21, ../sass/screen.scss */
 ul li a:hover, ol li a:hover {
   color: #ba1820;
   text-decoration: none;
 }
 
-/* line 22, ../sass/screen.scss */
 a.arch {
   line-height: 22px;
 }
 
-/* line 23, ../sass/screen.scss */
 a.dest {
   color: #ba1820;
 }
 
-/* line 24, ../sass/screen.scss */
 ul li a.dest:link, ul li a.dest:visited, ul li a.arch:link, ul li a.arch:visited {
   color: #ba1820;
   text-decoration: none;
 }
 
-/* line 25, ../sass/screen.scss */
 ul li a.dest:hover, ul li a.arch:hover {
   color: #999;
   text-decoration: none;
 }
 
-/* line 26, ../sass/screen.scss */
 .fl {
   float: left;
   margin: 7px 4px 0 0;
@@ -100,7 +87,6 @@ ul li a.dest:hover, ul li a.arch:hover {
   color: #ba1820;
 }
 
-/* line 27, ../sass/screen.scss */
 .fs {
   float: left;
   margin: 7px 4px 10px 0;
@@ -111,7 +97,6 @@ ul li a.dest:hover, ul li a.arch:hover {
 }
 
 @-moz-document url-prefix() {
-  /* line 30, ../sass/screen.scss */
   .fl {
     float: left;
     margin: 12px 4px 0 0;
@@ -121,7 +106,6 @@ ul li a.dest:hover, ul li a.arch:hover {
     color: #ba1820;
   }
 
-  /* line 31, ../sass/screen.scss */
   .fs {
     float: left;
     margin: 12px 4px 10px 0;
@@ -132,7 +116,6 @@ ul li a.dest:hover, ul li a.arch:hover {
   }
 }
 
-/* line 34, ../sass/screen.scss */
 pre {
   width: 476px;
   margin-bottom: 15px;
@@ -146,7 +129,6 @@ pre {
   overflow: auto;
 }
 
-/* line 35, ../sass/screen.scss */
 code {
   margin: 0;
   padding: 0;
@@ -157,13 +139,11 @@ code {
 
 /* 3.HEADINGS
 ---------------------------------------------------------------------- */
-/* line 40, ../sass/screen.scss */
 h1 {
   height: 88px;
   margin: 0;
 }
 
-/* line 41, ../sass/screen.scss */
 h1 a {
   display: block;
   width: 460px;
@@ -173,12 +153,10 @@ h1 a {
   background: url(http://colly.com/images/site/logo.png) no-repeat 0 0;
 }
 
-/* line 42, ../sass/screen.scss */
 h1 a:hover {
   background-position: 0 -90px;
 }
 
-/* line 43, ../sass/screen.scss */
 div#content_pri h2 {
   clear: both;
   margin: 10px 0 0px 0;
@@ -189,7 +167,6 @@ div#content_pri h2 {
   background: url(http://colly.com/images/site/underline.png) repeat-x bottom center;
 }
 
-/* line 44, ../sass/screen.scss */
 .journal#article div#content_pri h2 {
   margin: 0px 0 0px 0;
   padding: 0 0 28px 0;
@@ -197,13 +174,11 @@ div#content_pri h2 {
   line-height: 40px;
 }
 
-/* line 45, ../sass/screen.scss */
 h2.ext-dests {
   clear: both;
   text-indent: -9999px;
 }
 
-/* line 46, ../sass/screen.scss */
 h2.ext-dests a {
   display: block;
   height: 20px;
@@ -212,12 +187,10 @@ h2.ext-dests a {
   background: url(http://colly.com/images/site/ext-refs.png) center top repeat-x;
 }
 
-/* line 47, ../sass/screen.scss */
 h2.ext-dests a:hover {
   background-position: center -20px;
 }
 
-/* line 48, ../sass/screen.scss */
 .journal#multiple div#content_pri h3 {
   clear: both;
   margin: 10px 0 0px 0;
@@ -226,7 +199,6 @@ h2.ext-dests a:hover {
   font-size: 35px;
 }
 
-/* line 49, ../sass/screen.scss */
 .journal#multiple div#content_pri h3 a:link, .journal#multiple div#content_pri h3 a:visited {
   display: block;
   width: 100%;
@@ -237,22 +209,18 @@ h2.ext-dests a:hover {
   line-height: 30px;
 }
 
-/* line 50, ../sass/screen.scss */
 .journal#multiple div#content_pri h3 a:link {
   color: #ba1820;
 }
 
-/* line 51, ../sass/screen.scss */
 .journal#multiple div#content_pri h3 a:visited {
   color: #d0656a;
 }
 
-/* line 52, ../sass/screen.scss */
 .journal#multiple div#content_pri h3 a:hover {
   border-bottom: 1px solid #999;
 }
 
-/* line 53, ../sass/screen.scss */
 div#content_sec h3 {
   clear: both;
   text-align: right;
@@ -267,7 +235,6 @@ div#content_sec h3 {
   line-height: 120%;
 }
 
-/* line 54, ../sass/screen.scss */
 h4 {
   clear: both;
   margin: 10px 0 12px 0;
@@ -278,12 +245,10 @@ h4 {
   text-transform: uppercase;
 }
 
-/* line 55, ../sass/screen.scss */
 .journal#multiple div#content_pri h4 span {
   font-size: 10px;
 }
 
-/* line 56, ../sass/screen.scss */
 .archive div#content_pri h4 {
   clear: both;
   margin: 20px 0 0px 0;
@@ -294,21 +259,18 @@ h4 {
   text-transform: uppercase;
 }
 
-/* line 57, ../sass/screen.scss */
 h5 {
   margin: 30px 0 10px 0;
   font-weight: normal;
   font-size: 20px;
 }
 
-/* line 58, ../sass/screen.scss */
 h5 span {
   font-size: 11px;
   font-style: italic;
   color: #999;
 }
 
-/* line 59, ../sass/screen.scss */
 h6 {
   clear: both;
   margin: 30px 0 0px 0;
@@ -320,24 +282,20 @@ h6 {
 
 /* 4.LINKS
 ---------------------------------------------------------------------- */
-/* line 64, ../sass/screen.scss */
 a {
   outline: 0;
 }
 
-/* line 65, ../sass/screen.scss */
 a:link, a:visited {
   color: #ba1820;
 }
 
-/* line 66, ../sass/screen.scss */
 a:hover, a:focus {
   color: #999;
 }
 
 /* 5.LAYOUT
 ---------------------------------------------------------------------- */
-/* line 71, ../sass/screen.scss */
 div#page {
   width: 946px;
   margin: 20px auto;
@@ -345,14 +303,12 @@ div#page {
   background: url(http://colly.com/images/site/graph-tile.png) center top;
 }
 
-/* line 72, ../sass/screen.scss */
 div#branding {
   margin: 0 0 18px 0;
   padding: 10px 0 18px 0;
   background: url(http://colly.com/images/site/div-akacolly.png) repeat-x bottom center;
 }
 
-/* line 73, ../sass/screen.scss */
 div#content_wrapper {
   overflow: auto;
   clear: both;
@@ -368,7 +324,6 @@ div#content_wrapper {
   background: url(http://colly.com/images/site/content.png);
 }
 
-/* line 74, ../sass/screen.scss */
 div#content_pri {
   float: right;
   width: 516px;
@@ -377,7 +332,6 @@ div#content_pri {
   border-left: 1px dashed #DDD;
 }
 
-/* line 75, ../sass/screen.scss */
 div#content_sec {
   float: left;
   width: 196px;
@@ -385,20 +339,17 @@ div#content_sec {
   padding: 0 25px 0 0;
 }
 
-/* line 77, ../sass/screen.scss */
 div#content_pri ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
-/* line 78, ../sass/screen.scss */
 div#content_pri ol {
   margin: 0;
   padding: 0;
 }
 
-/* line 79, ../sass/screen.scss */
 div#content_pri ul li, div#content_pri ol li {
   width: 100%;
   padding: 2px 0 2px 0px;
@@ -406,7 +357,6 @@ div#content_pri ul li, div#content_pri ol li {
   font-size: 15px;
 }
 
-/* line 80, ../sass/screen.scss */
 .archive #content_pri ul li.date-heading {
   margin: 30px 0 0px 0;
   padding-bottom: 10px;
@@ -414,17 +364,14 @@ div#content_pri ul li, div#content_pri ol li {
   font-size: 18px;
 }
 
-/* line 81, ../sass/screen.scss */
 div#content_pri ul li:first-child {
   border-top: 1px dashed #CCC;
 }
 
-/* line 82, ../sass/screen.scss */
 .archive div#content_pri ul li:first-child {
   border-top: 0;
 }
 
-/* line 83, ../sass/screen.scss */
 div#content_pri ul li span, div#content_pri ol li span {
   display: inline;
   font-size: 11px;
@@ -432,43 +379,36 @@ div#content_pri ul li span, div#content_pri ol li span {
   color: #999;
 }
 
-/* line 84, ../sass/screen.scss */
 div#content_pri p {
   font-size: 15px;
   color: #333;
 }
 
-/* line 85, ../sass/screen.scss */
 div#content_pri p a:link {
   text-decoration: underline;
   color: #ba1820;
 }
 
-/* line 86, ../sass/screen.scss */
 div#content_pri ul li a:link, div#content_pri ol li a:link {
   text-decoration: none;
   color: #ba1820;
 }
 
-/* line 87, ../sass/screen.scss */
 div#content_pri p a:visited {
   text-decoration: underline;
   color: #d0656a;
 }
 
-/* line 88, ../sass/screen.scss */
 div#content_pri ul li a:visited, div#content_pri ol li a:visited {
   text-decoration: none;
   color: #d0656a;
 }
 
-/* line 89, ../sass/screen.scss */
 div#content_pri p a:hover, div#content_pri ul li a:hover, div#content_pri ol li a:hover {
   text-decoration: underline;
   color: #666;
 }
 
-/* line 91, ../sass/screen.scss */
 div#content_pri p.sub {
   clear: both;
   margin: 0 0 44px 0;
@@ -479,39 +419,33 @@ div#content_pri p.sub {
   text-transform: uppercase;
 }
 
-/* line 92, ../sass/screen.scss */
 .archive div#content_pri p.sub {
   margin: 0px 0 44px 0;
 }
 
-/* line 93, ../sass/screen.scss */
 div#content_pri p.sub span {
   margin: 0;
   padding: 0;
   font-size: 10px;
 }
 
-/* line 94, ../sass/screen.scss */
 .contact div#content_pri p.sub span, .journal#multiple div#content_pri p.sub span, .archive div#content_pri p.sub span {
   font-size: 15px;
   color: #ba1820;
 }
 
-/* line 95, ../sass/screen.scss */
 .contact div#content_pri p.sub span span {
   text-transform: lowercase;
   font-size: 13px;
   color: #333;
 }
 
-/* line 96, ../sass/screen.scss */
 div#content_pri p.intro {
   font-size: 18px;
   font-weight: normal;
   line-height: 26px;
 }
 
-/* line 97, ../sass/screen.scss */
 div#content_pri p.intro:first-letter {
   float: left;
   margin: 0 3px 0 0;
@@ -519,7 +453,6 @@ div#content_pri p.intro:first-letter {
   line-height: 92%;
 }
 
-/* line 98, ../sass/screen.scss */
 div#content_pri p.blurb:first-letter {
   float: left;
   margin: 0 3px 0 0;
@@ -528,7 +461,6 @@ div#content_pri p.blurb:first-letter {
 }
 
 @-moz-document url-prefix() {
-  /* line 100, ../sass/screen.scss */
   div#content_pri p.intro:first-letter {
     float: left;
     margin: 8px 3px 0 0;
@@ -536,7 +468,6 @@ div#content_pri p.blurb:first-letter {
     line-height: 22%;
   }
 
-  /* line 101, ../sass/screen.scss */
   div#content_pri p.blurb:first-letter {
     float: left;
     margin: 7px 3px 0 0;
@@ -545,7 +476,6 @@ div#content_pri p.blurb:first-letter {
   }
 }
 
-/* line 103, ../sass/screen.scss */
 div#content_pri p.paginate {
   margin: 0;
   padding: 10px 0 10px 0;
@@ -559,13 +489,11 @@ div#content_pri p.paginate {
   border-bottom: 1px solid #DDD;
 }
 
-/* line 104, ../sass/screen.scss */
 div#content_pri p.paginate a {
   padding: 1px 3px 1px 3px;
   text-decoration: none;
 }
 
-/* line 107, ../sass/screen.scss */
 div#content_pri p.meta {
   margin: 0 0 45px 0;
   padding: 6px 0 6px 0;
@@ -577,7 +505,6 @@ div#content_pri p.meta {
   border-bottom: 1px solid #DDD;
 }
 
-/* line 108, ../sass/screen.scss */
 div#content_pri img {
   margin: 06px 0 2px 0;
   padding: 7px;
@@ -588,7 +515,6 @@ div#content_pri img {
   box-shadow: 1px 1px 7px rgba(153, 153, 153, 0.2);
 }
 
-/* line 109, ../sass/screen.scss */
 div#content_pri object {
   display: block;
   margin: 6px 0 12px 0;
@@ -600,7 +526,6 @@ div#content_pri object {
   box-shadow: 1px 1px 7px rgba(153, 153, 153, 0.2);
 }
 
-/* line 110, ../sass/screen.scss */
 div#content_pri img.gravatar {
   float: right;
   margin: 15px 0 5px 15px;
@@ -608,7 +533,6 @@ div#content_pri img.gravatar {
   border: 1px solid #CCC;
 }
 
-/* line 111, ../sass/screen.scss */
 div#content_pri cite {
   display: block;
   margin-top: -13px;
@@ -617,19 +541,16 @@ div#content_pri cite {
   font-size: 12px;
 }
 
-/* line 112, ../sass/screen.scss */
 div#content_pri cite span {
   color: #999;
 }
 
-/* line 113, ../sass/screen.scss */
 div#content_pri blockquote {
   margin: 0;
   padding: 0 0 0 15px;
   border-left: 3px solid #EEE;
 }
 
-/* line 114, ../sass/screen.scss */
 div#content_pri blockquote p {
   font-size: 16px;
   font-style: italic;
@@ -637,24 +558,20 @@ div#content_pri blockquote p {
   margin-bottom: 7px;
 }
 
-/* line 115, ../sass/screen.scss */
 div#content_pri blockquote cite {
   padding: 0;
   color: #666;
 }
 
-/* line 116, ../sass/screen.scss */
 div#content_pri #post {
   padding-bottom: 80px;
   background: url(http://colly.com/images/site/underline-flourish.png) repeat-x center bottom;
 }
 
-/* line 117, ../sass/screen.scss */
 div#content_pri #responses {
   margin-top: 50px;
 }
 
-/* line 118, ../sass/screen.scss */
 div#content_pri #responses p.response {
   margin: 0;
   padding: 10px 0 3px 0;
@@ -663,7 +580,6 @@ div#content_pri #responses p.response {
   color: #999;
 }
 
-/* line 119, ../sass/screen.scss */
 div#content_pri .com-a, div#content_pri .com-b, div#content_pri .comm-colly {
   clear: both;
   margin: 20px 0 0 0;
@@ -674,43 +590,35 @@ div#content_pri .com-a, div#content_pri .com-b, div#content_pri .comm-colly {
   box-shadow: 1px 1px 7px rgba(153, 153, 153, 0.2);
 }
 
-/* line 120, ../sass/screen.scss */
 div#content_pri .comm-a {
   background: #f9f8f8;
 }
 
-/* line 121, ../sass/screen.scss */
 div#content_pri .comm-b {
   background: #f3f1f1;
 }
 
-/* line 122, ../sass/screen.scss */
 div#content_pri .comm-colly {
   background: #fcf5ee;
 }
 
-/* line 123, ../sass/screen.scss */
 div#content_pri .com-a p, div#content_pri .com-b p, div#content_pri .comm-colly p {
   margin-right: 70px;
 }
 
-/* line 124, ../sass/screen.scss */
 div#content_pri p.response a.comment_id {
   text-decoration: none;
 }
 
-/* line 125, ../sass/screen.scss */
 div#content_pri #respond {
   margin-top: 50px;
 }
 
-/* line 126, ../sass/screen.scss */
 div#content_pri #respond p {
   color: #666;
   font-size: 13px;
 }
 
-/* line 127, ../sass/screen.scss */
 div#content_pri p span, div#content_pri p.intro span, div#content_pri p.blurb span {
   position: relative;
   margin: 0;
@@ -720,7 +628,6 @@ div#content_pri p span, div#content_pri p.intro span, div#content_pri p.blurb sp
   line-height: 0;
 }
 
-/* line 129, ../sass/screen.scss */
 div#content_pri p span sup, div#content_pri p.intro span sup, div#content_pri p.blurb span sup {
   position: absolute;
   top: 0px;
@@ -732,7 +639,6 @@ div#content_pri p span sup, div#content_pri p.intro span sup, div#content_pri p.
   line-height: 0;
 }
 
-/* line 130, ../sass/screen.scss */
 div#content_pri p#footnote {
   padding: 10px 0 10px 0;
   margin: 60px 0 0 0;
@@ -747,12 +653,10 @@ div#content_pri p#footnote {
   border-top: 1px solid #DDD;
 }
 
-/* line 131, ../sass/screen.scss */
 .journal div#content_pri p#footnote {
   margin: 30px 0 0 0;
 }
 
-/* line 132, ../sass/screen.scss */
 div#content_pri ol#footnotes {
   padding: 0px 0 10px 0;
   color: #666;
@@ -762,13 +666,11 @@ div#content_pri ol#footnotes {
   border-bottom: 1px solid #DDD;
 }
 
-/* line 133, ../sass/screen.scss */
 div#content_pri ol#footnotes li {
   font-size: 11px;
   border: 0;
 }
 
-/* line 134, ../sass/screen.scss */
 div#content_pri ol#footnotes a.scrollto {
   margin-top: -2px;
   padding: 0 3px 0 2px;
@@ -776,7 +678,6 @@ div#content_pri ol#footnotes a.scrollto {
   text-decoration: none;
 }
 
-/* line 135, ../sass/screen.scss */
 div#content_pri ol#footnotes li span {
   display: block;
   margin-bottom: 5px;
@@ -788,7 +689,6 @@ div#content_pri ol#footnotes li span {
   line-height: 120%;
 }
 
-/* line 137, ../sass/screen.scss */
 div#content_pri p.notes {
   padding: 10px 0 10px 0;
   color: #666;
@@ -799,7 +699,6 @@ div#content_pri p.notes {
   border-bottom: 1px solid #DDD;
 }
 
-/* line 138, ../sass/screen.scss */
 div#content_pri p.notes span {
   display: block;
   margin-bottom: 5px;
@@ -811,7 +710,6 @@ div#content_pri p.notes span {
   line-height: 120%;
 }
 
-/* line 140, ../sass/screen.scss */
 div#content_sec p {
   margin: 4px 0 0 25px;
   padding: 10px 0 9px 0;
@@ -823,25 +721,21 @@ div#content_sec p {
   border-top: 1px dashed #CCC;
 }
 
-/* line 141, ../sass/screen.scss */
 .biography div#content_sec p {
   border-top: 0px;
 }
 
-/* line 142, ../sass/screen.scss */
 div#content_sec p.yearly {
   margin: 0 0 25px 25px;
   font-style: normal;
 }
 
-/* line 143, ../sass/screen.scss */
 div#content_sec ul {
   list-style-type: none;
   margin: 4px 0 35px 25px;
   padding: 0;
 }
 
-/* line 144, ../sass/screen.scss */
 div#content_sec ul li {
   text-align: right;
   width: 100%;
@@ -850,30 +744,25 @@ div#content_sec ul li {
   border-bottom: 1px dashed #CCC;
 }
 
-/* line 145, ../sass/screen.scss */
 div#content_sec ul li:first-child {
   border-top: 1px dashed #CCC;
 }
 
-/* line 146, ../sass/screen.scss */
 div#content_sec p a:link, div#content_sec ul li a:link {
   text-decoration: none;
   color: #ba1820;
 }
 
-/* line 147, ../sass/screen.scss */
 div#content_sec p a:visited, div#content_sec ul li a:visited {
   text-decoration: none;
   color: #d0656a;
 }
 
-/* line 148, ../sass/screen.scss */
 div#content_sec p a:hover, div#content_sec ul li a:hover {
   text-decoration: underline;
   color: #666;
 }
 
-/* line 149, ../sass/screen.scss */
 div#content_sec img {
   background: #FFFAFA;
   margin: 0 0 0 30px;
@@ -887,7 +776,6 @@ div#content_sec img {
   -o-transform: rotate(-2deg);
 }
 
-/* line 150, ../sass/screen.scss */
 div#content_sec blockquote {
   text-align: right;
   margin: 20px 0 10px 0;
@@ -895,7 +783,6 @@ div#content_sec blockquote {
   background: url(http://colly.com/images/site/quote.png) no-repeat 10px 3px;
 }
 
-/* line 151, ../sass/screen.scss */
 div#content_sec blockquote p {
   margin: 0 0 5px 45px;
   padding: 0;
@@ -905,14 +792,12 @@ div#content_sec blockquote p {
   border-bottom: 0px;
 }
 
-/* line 152, ../sass/screen.scss */
 div#content_sec blockquote cite {
   padding: 0 0 0 0;
   color: #666;
   font-size: 13px;
 }
 
-/* line 153, ../sass/screen.scss */
 div#content_sec a.j-prev:link, div#content_sec a.j-prev:visited {
   text-indent: -9999px;
   float: left;
@@ -923,12 +808,10 @@ div#content_sec a.j-prev:link, div#content_sec a.j-prev:visited {
   border-bottom: 0px solid #000;
 }
 
-/* line 154, ../sass/screen.scss */
 div#content_sec a.j-prev:hover {
   background: url(http://colly.com/images/site/prev.png) no-repeat 0 -63px;
 }
 
-/* line 155, ../sass/screen.scss */
 div#content_sec span.j-no {
   float: left;
   width: 82px;
@@ -941,7 +824,6 @@ div#content_sec span.j-no {
   text-align: center;
 }
 
-/* line 156, ../sass/screen.scss */
 div#content_sec a.j-next:link, div#content_sec a.j-next:visited {
   text-indent: -9999px;
   float: left;
@@ -952,12 +834,10 @@ div#content_sec a.j-next:link, div#content_sec a.j-next:visited {
   border-bottom: 0px solid #000;
 }
 
-/* line 157, ../sass/screen.scss */
 div#content_sec a.j-next:hover {
   background: url(http://colly.com/images/site/next.png) no-repeat 0 -63px;
 }
 
-/* line 158, ../sass/screen.scss */
 div#content_sec p.home-link {
   text-align: left;
   float: left;
@@ -969,7 +849,6 @@ div#content_sec p.home-link {
   border: 0;
 }
 
-/* line 159, ../sass/screen.scss */
 div#content_sec p.home-link a:link, div#content_sec p.home-link a:visited {
   display: block;
   text-indent: -9999px;
@@ -978,14 +857,12 @@ div#content_sec p.home-link a:link, div#content_sec p.home-link a:visited {
   background: url(http://colly.com/images/site/home-c.png) no-repeat 0 0;
 }
 
-/* line 160, ../sass/screen.scss */
 div#content_sec p.home-link a:hover {
   background: url(http://colly.com/images/site/home-c.png) no-repeat 0 -63px;
 }
 
 /* 6.NAVIGATION
 ---------------------------------------------------------------------- */
-/* line 165, ../sass/screen.scss */
 ul#navigation_pri {
   clear: both;
   float: left;
@@ -995,21 +872,18 @@ ul#navigation_pri {
   background: url(http://colly.com/images/site/underline.png) repeat-x center bottom;
 }
 
-/* line 166, ../sass/screen.scss */
 .home ul#navigation_pri {
   margin: 12px 0 0 0;
   padding: 0 0 41px 0;
   background: transparent;
 }
 
-/* line 167, ../sass/screen.scss */
 .external ul#navigation_pri {
   margin: 12px 0 10px 0;
   padding: 0;
   background: transparent;
 }
 
-/* line 169, ../sass/screen.scss */
 ul li#biography, ul li#journal, ul li#archive, ul li#contact {
   line-height: 18px;
   float: left;
@@ -1026,56 +900,46 @@ ul li#biography, ul li#journal, ul li#archive, ul li#contact {
   background: url(http://colly.com/images/site/card.png);
 }
 
-/* line 171, ../sass/screen.scss */
 ul li#biography, ul li#journal, ul li#archive {
   margin: 0 10px 0 0;
 }
 
-/* line 172, ../sass/screen.scss */
 ul li#contact {
   margin: 0;
 }
 
-/* line 174, ../sass/screen.scss */
 ul li#biography a span.label {
   background: url(http://colly.com/images/site/n-pig.png) repeat-x center bottom;
 }
 
-/* line 175, ../sass/screen.scss */
 ul li#journal a span.label {
   background: url(http://colly.com/images/site/n-butterfly.png) repeat-x center bottom;
 }
 
-/* line 176, ../sass/screen.scss */
 ul li#archive a span.label {
   background: url(http://colly.com/images/site/n-bigfish.png) repeat-x center bottom;
 }
 
-/* line 177, ../sass/screen.scss */
 ul li#contact a span.label {
   background: url(http://colly.com/images/site/n-crab.png) repeat-x center bottom;
 }
 
-/* line 178, ../sass/screen.scss */
 .biography ul li#biography, .journal ul li#journal, .archive ul li#archive, .contact ul li#contact {
   background-color: white;
   opacity: 1.0;
 }
 
-/* line 179, ../sass/screen.scss */
 .biography ul li#journal, .biography ul li#archive, .biography ul li#contact, .journal ul li#biography, .journal ul li#archive, .journal ul li#contact, .archive ul li#biography, .archive ul li#journal, .archive ul li#contact, .contact ul li#biography, .contact ul li#journal, .contact ul li#archive {
   background-color: white;
   opacity: 0.6;
 }
 
-/* line 180, ../sass/screen.scss */
 ul li#biography:hover, ul li#journal:hover, ul li#archive:hover, ul li#contact:hover {
   background-color: white;
   opacity: 1.0;
   background-position: center -30px;
 }
 
-/* line 182, ../sass/screen.scss */
 ul#subnav-a, ul#subnav-b, ul#subnav-c, ul#subnav-d {
   float: left;
   list-style-type: none;
@@ -1084,32 +948,27 @@ ul#subnav-a, ul#subnav-b, ul#subnav-c, ul#subnav-d {
   line-height: 18px;
 }
 
-/* line 183, ../sass/screen.scss */
 ul#subnav-b {
   margin: 0;
   padding: 0 0 50px 0;
 }
 
-/* line 185, ../sass/screen.scss */
 .home ul#subnav-b, .home ul#subnav-c, .home ul#subnav-d, .external ul#subnav-b, .external ul#subnav-c,
 .home ul#subnav-c, .home ul#subnav-d {
   margin: 0;
   padding: 0 0 10px 0;
 }
 
-/* line 186, ../sass/screen.scss */
 .external ul#subnav-c {
   margin: 0;
   padding: 0 0 50px 0;
 }
 
-/* line 187, ../sass/screen.scss */
 .home ul#subnav-b {
   margin: 0;
   padding: 0 0 50px 0;
 }
 
-/* line 189, ../sass/screen.scss */
 ul li#twitter, ul li#flickr, ul li#lastfm, ul li#delicious, ul li#slideshare, ul li#virb, ul li#facebook, ul li#vimeo, ul li#wallswaps, ul li#catsizedwhat, ul li#dribbble, ul li#gowalla, ul li#linkedin, ul li#dopplr {
   float: left;
   text-align: center;
@@ -1129,77 +988,62 @@ ul li#twitter, ul li#flickr, ul li#lastfm, ul li#delicious, ul li#slideshare, ul
   background: url(http://colly.com/images/site/card.png);
 }
 
-/* line 191, ../sass/screen.scss */
 ul li#flickr, ul li#lastfm, ul li#delicious, ul li#slideshare, ul li#facebook, ul li#wallswaps, ul li#virb, ul li#linkedin, ul li#dribbble, ul li#dopplr {
   margin: 0 10px 0 0;
 }
 
-/* line 192, ../sass/screen.scss */
 ul li#twitter, ul li#vimeo, ul li#gowalla {
   margin: 0;
 }
 
-/* line 194, ../sass/screen.scss */
 ul li#twitter a span.label {
   background: url(http://colly.com/images/site/n-salamander.png) no-repeat center bottom;
 }
 
-/* line 195, ../sass/screen.scss */
 ul li#flickr a span.label {
   background: url(http://colly.com/images/site/n-flea.png) no-repeat center bottom;
 }
 
-/* line 196, ../sass/screen.scss */
 ul li#lastfm a span.label {
   background: url(http://colly.com/images/site/n-grasshopper.png) no-repeat center bottom;
 }
 
-/* line 197, ../sass/screen.scss */
 ul li#delicious a span.label {
   background: url(http://colly.com/images/site/n-puffer.png) no-repeat center bottom;
 }
 
-/* line 198, ../sass/screen.scss */
 ul li#slideshare a span.label {
   background: url(http://colly.com/images/site/n-beetle.png) no-repeat center bottom;
 }
 
-/* line 199, ../sass/screen.scss */
 ul li#virb a span.label {
   background: url(http://colly.com/images/site/n-lobster.png) no-repeat center bottom;
 }
 
-/* line 200, ../sass/screen.scss */
 ul li#facebook a span.label {
   background: url(http://colly.com/images/site/n-collie.png) no-repeat center bottom;
 }
 
-/* line 201, ../sass/screen.scss */
 ul li#vimeo a span.label {
   background: url(http://colly.com/images/site/n-tortoise.png) no-repeat center bottom;
 }
 
-/* line 202, ../sass/screen.scss */
 ul li#dribbble a span.label {
   background: url(http://colly.com/images/site/n-reptile.png) no-repeat center bottom;
 }
 
-/* line 203, ../sass/screen.scss */
 ul li#gowalla a span.label {
   background: url(http://colly.com/images/site/n-cormorant.png) no-repeat center bottom;
 }
 
-/* line 204, ../sass/screen.scss */
 ul li#linkedin a span.label {
   background: url(http://colly.com/images/site/n-cormorant2.png) no-repeat center bottom;
 }
 
-/* line 205, ../sass/screen.scss */
 ul li#dopplr a span.label {
   background: url(http://colly.com/images/site/n-snake.png) no-repeat center bottom;
 }
 
-/* line 208, ../sass/screen.scss */
 ul li#erskine:hover, ul li#labs:hover, ul li#twitter:hover, ul li#flickr:hover, ul li#lastfm:hover, ul li#delicious:hover, ul li#slideshare:hover, ul li#virb:hover, ul li#facebook:hover, ul li#vimeo:hover, ul li#wallswaps:hover, ul li#catsizedwhat:hover, ul li#dribbble:hover, ul li#gowalla:hover, ul li#linkedin:hover {
   background-color: white;
   opacity: 1.0;
@@ -1207,7 +1051,6 @@ ul li#erskine:hover, ul li#labs:hover, ul li#twitter:hover, ul li#flickr:hover, 
 
 /* 7.SITEINFO/FOOTER
 ---------------------------------------------------------------------- */
-/* line 213, ../sass/screen.scss */
 div#siteinfo {
   position: relative;
   clear: both;
@@ -1217,19 +1060,16 @@ div#siteinfo {
   background: url(http://colly.com/images/site/deranged.png) no-repeat top center;
 }
 
-/* line 214, ../sass/screen.scss */
 div#siteinfo p {
   margin: 0;
   padding: 0;
 }
 
-/* line 215, ../sass/screen.scss */
 div#siteinfo p span {
   font-family: Courier,monospace;
   color: #fca0a5;
 }
 
-/* line 216, ../sass/screen.scss */
 div#siteinfo a:link, a:visited {
   text-decoration: underline;
   color: #beb2b2;
@@ -1237,13 +1077,11 @@ div#siteinfo a:link, a:visited {
 
 /* 8.FORMS
 ---------------------------------------------------------------------- */
-/* line 221, ../sass/screen.scss */
 form {
   margin: 0;
   padding: 0;
 }
 
-/* line 222, ../sass/screen.scss */
 label {
   display: block;
   font-weight: normal;
@@ -1253,20 +1091,17 @@ label {
   font-size: 15px;
 }
 
-/* line 223, ../sass/screen.scss */
 fieldset {
   margin: 20px 0 0 0;
   padding: 0;
   border: 0px solid #CCC;
 }
 
-/* line 224, ../sass/screen.scss */
 .contact div#content_pri fieldset {
   margin: 30px 0 0 0;
 }
 
 /* .contact div#content_pri { padding-bottom:60px; background:url(http://colly.com/images/site/underline-flourish.png) repeat-x center bottom; } */
-/* line 226, ../sass/screen.scss */
 .contact div#content_pri input, #from, #subject, #message, .journal div#content_pri input, #name, #email, #url, #comment {
   padding: 5px;
   font-family: "Times New Roman", Times, serif;
@@ -1280,17 +1115,14 @@ fieldset {
   border-left: 0px dashed #999;
 }
 
-/* line 227, ../sass/screen.scss */
 #from, #subject, #name, #email, #url {
   width: 500px;
 }
 
-/* line 228, ../sass/screen.scss */
 #message, #comment {
   width: 500px;
 }
 
-/* line 229, ../sass/screen.scss */
 .contact div#content_pri input.go, .journal div#content_pri input.go {
   margin-top: 10px;
   border-top: 0px dashed #FFF;
@@ -1299,28 +1131,23 @@ fieldset {
   border-left: 0px dashed #999;
 }
 
-/* line 231, ../sass/screen.scss */
 p.vcard {
   clear: both;
 }
 
-/* line 232, ../sass/screen.scss */
 p.vcard img {
   display: none;
 }
 
-/* line 233, ../sass/screen.scss */
 p.vcard span.fn {
   font-weight: bold;
   font-size: 13px;
 }
 
-/* line 234, ../sass/screen.scss */
 p.vcard span.role {
   font-style: italic;
 }
 
-/* line 235, ../sass/screen.scss */
 ul li.mf a {
   background: url(http://colly.com/images/site/hcard.gif) no-repeat center right;
   padding-right: 19px;
@@ -1332,32 +1159,26 @@ ul li.mf a {
        screen and (max-device-width:480px),
 			 (max-device-width:480px) and (orientation:landscape),
        (min-device-width:481px) and (orientation:portrait) {
-  /* line 245, ../sass/screen.scss */
   div#page {
     width: 468px;
   }
 
-  /* line 246, ../sass/screen.scss */
   .home ul#navigation_pri, .home ul#subnav-b {
     padding-bottom: 30px;
   }
 
-  /* line 247, ../sass/screen.scss */
   ul#navigation_pri li, ul#subnav-a li, ul#subnav-b li, ul#subnav-c li {
     margin-bottom: 10px;
   }
 
-  /* line 248, ../sass/screen.scss */
   ul#navigation_pri li:nth-child(even), ul#subnav-a li:nth-child(even), ul#subnav-b li:nth-child(even), ul#subnav-c li:nth-child(even) {
     margin-right: 0;
   }
 
-  /* line 249, ../sass/screen.scss */
   #page ul[id^=subnav] {
     margin-bottom: 0;
   }
 
-  /* line 250, ../sass/screen.scss */
   div#content_pri {
     width: 400px;
     margin: 0;
@@ -1365,39 +1186,32 @@ ul li.mf a {
     border-left: 0px dashed #DDD;
   }
 
-  /* line 251, ../sass/screen.scss */
   div#content_sec {
     display: none;
   }
 
-  /* line 252, ../sass/screen.scss */
   div#content_pri #post img {
     width: 380px;
     height: auto;
   }
 
-  /* line 253, ../sass/screen.scss */
   div#content_pri #post object {
     width: 380px;
     height: 300px;
   }
 
-  /* line 254, ../sass/screen.scss */
   div#content_pri #responses p.response {
     font-size: 13px;
   }
 
-  /* line 255, ../sass/screen.scss */
   pre {
     width: 360px;
   }
 
-  /* line 256, ../sass/screen.scss */
   #from, #subject, #name, #email, #url, #message, #comment {
     width: 380px;
   }
 
-  /* line 257, ../sass/screen.scss */
   div#siteinfo p {
     font-size: 14px;
   }
@@ -1406,56 +1220,46 @@ ul li.mf a {
 @media (min-device-width:1024px) and (max-width:509px),
 
        (max-device-width:480px) and (orientation:portrait) {
-  /* line 263, ../sass/screen.scss */
   div#page {
     padding: 30px 0px 10px 0px;
     width: 306px;
   }
 
-  /* line 264, ../sass/screen.scss */
   ul li#biography, ul li#journal, ul li#archive {
     margin: 0 0 10px 0;
   }
 
-  /* line 265, ../sass/screen.scss */
   .home ul#navigation_pri, .home ul#subnav-b {
     padding-bottom: 30px;
   }
 
-  /* line 266, ../sass/screen.scss */
   h1 {
     margin: 0;
   }
 
-  /* line 267, ../sass/screen.scss */
   h1 a {
     width: 306px;
     background-position: center top;
   }
 
-  /* line 268, ../sass/screen.scss */
   h1 a:hover {
     background-position: center -90px;
   }
 
-  /* line 269, ../sass/screen.scss */
   ul#navigation_pri li, ul#subnav-a li, ul#subnav-b li, ul#subnav-c li {
     width: 285px;
   }
 
-  /* line 270, ../sass/screen.scss */
   .biography ul#navigation_pri li a span.label, .journal ul#navigation_pri li a span.label, .archive ul#navigation_pri li a span.label, .contact ul#navigation_pri li a span.label, .biography ul#subnav-a li a span.label, .journal ul#subnav-a li a span.label, .archive ul#subnav-a li a span.label, .contact ul#subnav-a li a span.label, .biography ul#subnav-b li a span.label, .journal ul#subnav-b li a span.label, .archive ul#subnav-b li a span.label, .contact ul#subnav-b li a span.label {
     padding: 2px 0 0px 0;
     background: none;
   }
 
-  /* line 271, ../sass/screen.scss */
   .home ul#navigation_pri li a span.label, .external ul#navigation_pri li a span.label {
     padding: 2px 0 105px 0;
     background-repeat: no-repeat;
   }
 
-  /* line 272, ../sass/screen.scss */
   div#content_pri {
     width: 260px;
     margin: 0;
@@ -1463,59 +1267,48 @@ ul li.mf a {
     border-left: 0px dashed #DDD;
   }
 
-  /* line 273, ../sass/screen.scss */
   div#content_sec, div#content_pri img.gravatar {
     display: none;
   }
 
-  /* line 274, ../sass/screen.scss */
   div#content_pri h2 {
     font-size: 25px;
   }
 
-  /* line 275, ../sass/screen.scss */
   .journal#article div#content_pri h2 {
     font-size: 25px;
   }
 
-  /* line 276, ../sass/screen.scss */
   div#content_pri ol#footnotes {
     margin-left: 10px;
   }
 
-  /* line 277, ../sass/screen.scss */
   div#content_pri #post img {
     width: 240px;
     height: auto;
   }
 
-  /* line 278, ../sass/screen.scss */
   div#content_pri #post object {
     width: 240px;
     height: 200px;
   }
 
-  /* line 279, ../sass/screen.scss */
   div#content_pri #responses p.response {
     font-size: 13px;
   }
 
-  /* line 280, ../sass/screen.scss */
   div#content_pri .com-a p, div#content_pri .com-b p, div#content_pri .comm-colly p {
     margin-right: 0px;
   }
 
-  /* line 281, ../sass/screen.scss */
   pre {
     width: 360px;
   }
 
-  /* line 282, ../sass/screen.scss */
   #from, #subject, #name, #email, #url, #message, #comment {
     width: 260px;
   }
 
-  /* line 283, ../sass/screen.scss */
   div#siteinfo p {
     font-size: 12px;
   }
