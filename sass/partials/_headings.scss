@@ -1,0 +1,23 @@
+/* 3.HEADINGS
+---------------------------------------------------------------------- */
+
+h1 { height:88px; margin:0; }
+h1 a { display:block; width:460px; height:86px; margin:-22px auto 0 auto; text-indent:-9999px; background:url(http://colly.com/images/site/logo.png) no-repeat 0 0; }
+h1 a:hover { background-position:0 -90px; }
+div#content_pri h2 { clear:both; margin:10px 0 0px 0; padding:0 0 28px 0; font-weight:normal; font-size:35px; line-height:29px;  background:url(http://colly.com/images/site/underline.png) repeat-x bottom center; }
+.journal#article div#content_pri h2 { margin:0px 0 0px 0; padding:0 0 28px 0; font-size:35px; line-height:40px; }
+h2.ext-dests { clear:both; text-indent:-9999px; }
+h2.ext-dests a { display:block; height:20px; margin:20px 0 32px 0; padding:0; background:url(http://colly.com/images/site/ext-refs.png) center top repeat-x; }
+h2.ext-dests a:hover { background-position:center -20px; }
+.journal#multiple div#content_pri h3 { clear:both; margin:10px 0 0px 0; padding:0 0 0px 0; font-weight:normal; font-size:35px; }
+.journal#multiple div#content_pri h3 a:link, .journal#multiple div#content_pri h3 a:visited { display:block; width:100%; font-size:25px; padding:0px 0 12px 0; text-decoration:none; border-bottom:1px solid #DDD; line-height:30px; }
+.journal#multiple div#content_pri h3 a:link { color:#ba1820; }
+.journal#multiple div#content_pri h3 a:visited { color:#d0656a; }
+.journal#multiple div#content_pri h3 a:hover { border-bottom:1px solid #999; }
+div#content_sec h3 { clear:both; text-align:right; margin:0 0 7px 25px; padding:0; font-size:12px; color:#000; font-weight:normal; font-style:normal; text-transform:uppercase; letter-spacing:1px; line-height:120%; }
+h4 { clear:both; margin:10px 0 12px 0; padding:0px 0 0 0; font-weight:normal; font-size:14px; color:#333; text-transform:uppercase; }
+.journal#multiple div#content_pri h4 span { font-size:10px; }
+.archive div#content_pri h4 { clear:both; margin:20px 0 0px 0; padding:0px 0 0 0; font-weight:normal; font-size:15px; color:#333; text-transform:uppercase; }
+h5 { margin:30px 0 10px 0; font-weight:normal; font-size:20px; }
+h5 span { font-size:11px; font-style:italic; color:#999; }
+h6 { clear:both; margin:30px 0 0px 0; padding:0px 0 0 0; font-size:14px; color:#333; text-transform:uppercase; }

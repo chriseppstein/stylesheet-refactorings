@@ -1,0 +1,24 @@
+/* 2.DEFAULT STYLING
+---------------------------------------------------------------------- */
+
+ul li a span.strap { display:block; text-align:center; font-style:italic; }
+ul li a span.label { display:block; text-align:center; padding:2px 0 105px 0; font-size:12px; font-weight:normal; font-style:normal; text-transform:uppercase; letter-spacing:1px; color:#000; }
+ul li span.label span { display:inline; font-size:15px; }
+ul li span.label span.kern-a { display:inline; font-size:15px; letter-spacing:0px; }
+ul li span.label span.kern { display:inline; font-size:12px; letter-spacing:0px; }
+ul li a:link, ul li a:visited, ol li a:link, ol li a:visited { color:#999;text-decoration:none; }
+ul li a:hover, ol li a:hover { color:#ba1820; text-decoration:none; }
+a.arch { line-height:22px; }
+a.dest { color:#ba1820; }
+ul li a.dest:link, ul li a.dest:visited, ul li a.arch:link, ul li a.arch:visited { color:#ba1820; text-decoration:none; }
+ul li a.dest:hover, ul li a.arch:hover { color:#999; text-decoration:none; }
+.fl { float:left; margin:7px 4px 0 0; padding:0; font-size:65px;  line-height:62%; color:#ba1820; }
+.fs { float:left; margin:7px 4px 10px 0; padding:0; font-size:65px; line-height:62%; color:#ba1820; }
+
+@-moz-document url-prefix() {
+.fl { float:left; margin:12px 4px 0 0; padding:0; font-size:65px;  line-height:62%; color:#ba1820; }
+.fs { float:left; margin:12px 4px 10px 0; padding:0; font-size:65px; line-height:62%; color:#ba1820; }
+}
+
+pre { width:476px; margin-bottom:15px; padding:20px; background:#EEE; border-top:1px solid #CCC; border-bottom:1px solid #CCC; font-family:"Courier New",Courier,monospace; font-size:12px; line-height:140%; overflow:auto; }
+code { margin:0; padding:0; font-family:Courier,monospace; font-size:13px; line-height:1.5em; }

@@ -1,0 +1,53 @@
+/* 9.MEDIA QUERIES
+---------------------------------------------------------------------- */
+
+@media (min-device-width:1024px) and (max-width:989px),
+       screen and (max-device-width:480px),
+			 (max-device-width:480px) and (orientation:landscape),
+       (min-device-width:481px) and (orientation:portrait) {
+  div#page { width:468px; }
+  .home ul#navigation_pri, .home ul#subnav-b { padding-bottom:30px; }
+  ul#navigation_pri li, ul#subnav-a li, ul#subnav-b li, ul#subnav-c li { margin-bottom:10px; }
+  ul#navigation_pri li:nth-child(even), ul#subnav-a li:nth-child(even), ul#subnav-b li:nth-child(even), ul#subnav-c li:nth-child(even) { margin-right:0; }
+  #page ul[id^=subnav] { margin-bottom:0; }
+	div#content_pri { width:400px; margin:0; padding:0px 30px 0 0px;  border-left:0px dashed #DDD; }
+	div#content_sec { display:none; }
+	div#content_pri #post img { width:380px; height:auto; }
+	div#content_pri #post object { width:380px; height:300px; }
+	div#content_pri #responses p.response { font-size:13px; }
+	pre { width:360px; }
+	#from, #subject, #name, #email, #url, #message, #comment { width:380px; }
+	div#siteinfo p { font-size:14px; }
+}
+
+@media (min-device-width:1024px) and (max-width:509px),
+
+       (max-device-width:480px) and (orientation:portrait) {
+  div#page { padding:30px 0px 10px 0px; width:306px; }
+ul li#biography, ul li#journal, ul li#archive { margin:0 0 10px 0; }
+  .home ul#navigation_pri, .home ul#subnav-b { padding-bottom:30px; }
+h1 { margin:0; }
+  h1 a { width:306px; background-position:center top; }
+  h1 a:hover { background-position:center -90px; }
+  ul#navigation_pri li, ul#subnav-a li, ul#subnav-b li, ul#subnav-c li { width:285px; }
+	.biography ul#navigation_pri li a span.label, .journal ul#navigation_pri li a span.label, .archive ul#navigation_pri li a span.label, .contact ul#navigation_pri li a span.label, .biography ul#subnav-a li a span.label, .journal ul#subnav-a li a span.label, .archive ul#subnav-a li a span.label, .contact ul#subnav-a li a span.label, .biography ul#subnav-b li a span.label, .journal ul#subnav-b li a span.label, .archive ul#subnav-b li a span.label, .contact ul#subnav-b li a span.label { padding:2px 0 0px 0; background:none; }
+  .home ul#navigation_pri li a span.label, .external ul#navigation_pri li a span.label { padding:2px 0 105px 0; background-repeat:no-repeat; }
+	div#content_pri { width:260px; margin:0; padding:0px 30px 0 0px;  border-left:0px dashed #DDD; }
+	div#content_sec, div#content_pri img.gravatar { display:none; }
+	div#content_pri h2 { font-size:25px; }
+	.journal#article div#content_pri h2 { font-size:25px; }
+	div#content_pri ol#footnotes { margin-left:10px; }
+	div#content_pri #post img { width:240px; height:auto; }
+	div#content_pri #post object { width:240px; height:200px; }
+	div#content_pri #responses p.response { font-size:13px; }
+	div#content_pri .com-a p, div#content_pri .com-b p, div#content_pri .comm-colly p { margin-right:0px; }
+	pre { width:360px; }
+	#from, #subject, #name, #email, #url, #message, #comment { width:260px; }
+	div#siteinfo p { font-size:12px; }
+}
+
+/* * {
+	transition: width .5s;
+	-moz-transition: width .5s;
+	-webkit-transition: width .5s;
+}  */

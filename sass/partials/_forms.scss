@@ -1,0 +1,20 @@
+/* 8.FORMS
+---------------------------------------------------------------------- */
+
+form { margin:0; padding:0; }
+label { display:block; font-weight:normal; font-style:italic; margin:10px 0 0 0; padding:5px 5px 5px 0; font-size:15px; }
+fieldset { margin: 20px 0 0 0; padding:0; border:0px solid #CCC; }
+.contact div#content_pri fieldset { margin: 30px 0 0 0; }
+/* .contact div#content_pri { padding-bottom:60px; background:url(http://colly.com/images/site/underline-flourish.png) repeat-x center bottom; } */
+.contact div#content_pri input, #from, #subject, #message, .journal div#content_pri input, #name, #email, #url, #comment { padding:5px; font-family:"Times New Roman", Times, serif; font-size:15px; line-height:22px; color:#333; background:#FFFAFA; border-top:0px dashed #FFF; border-right:0px dashed #FFF; border-bottom:1px dashed #CCC; border-left:0px dashed #999; }
+#from, #subject, #name, #email, #url { width:500px; }
+#message, #comment { width:500px; }
+.contact div#content_pri input.go, .journal div#content_pri input.go { margin-top:10px; border-top:0px dashed #FFF; border-right:0px dashed #FFF; border-bottom:0px dashed #999; border-left:0px dashed #999; }
+
+p.vcard { clear:both; }
+p.vcard img { display:none; }
+p.vcard span.fn {font-weight:bold; font-size:13px; }
+p.vcard span.role {font-style:italic; }
+ul li.mf a { background:url(http://colly.com/images/site/hcard.gif) no-repeat center right; padding-right:19px; }
+
+
