@@ -823,7 +823,10 @@ ul#navigation_pri {
   background: transparent;
 }
 
-ul li#biography, ul li#journal, ul li#archive, ul li#contact {
+.internal-reference, ul li#biography,
+ul li#journal,
+ul li#archive,
+ul li#contact {
   line-height: 18px;
   float: left;
   width: 207px;
@@ -837,10 +840,26 @@ ul li#biography, ul li#journal, ul li#archive, ul li#contact {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   background: url(http://colly.com/images/site/card.png);
+  margin: 0 10px 0 0;
 }
 
-ul li#biography, ul li#journal, ul li#archive {
-  margin: 0 10px 0 0;
+.selected-internal-reference, .biography ul li#biography, .journal ul li#journal, .archive ul li#archive, .contact ul li#contact {
+  background-color: white;
+  opacity: 1.0;
+}
+
+.unselected-internal-reference, .biography ul li#journal, .biography ul li#archive, .biography ul li#contact, .journal ul li#biography, .journal ul li#archive, .journal ul li#contact, .archive ul li#biography, .archive ul li#journal, .archive ul li#contact, .contact ul li#biography, .contact ul li#journal, .contact ul li#archive {
+  background-color: white;
+  opacity: 0.6;
+}
+
+.internal-reference:hover, ul li#biography:hover,
+ul li#journal:hover,
+ul li#archive:hover,
+ul li#contact:hover {
+  background-color: white;
+  opacity: 1.0;
+  background-position: center -30px;
 }
 
 ul li#contact {
@@ -863,23 +882,10 @@ ul li#contact a span.label {
   background: url(http://colly.com/images/site/n-crab.png) repeat-x center bottom;
 }
 
-.biography ul li#biography, .journal ul li#journal, .archive ul li#archive, .contact ul li#contact {
-  background-color: white;
-  opacity: 1.0;
-}
-
-.biography ul li#journal, .biography ul li#archive, .biography ul li#contact, .journal ul li#biography, .journal ul li#archive, .journal ul li#contact, .archive ul li#biography, .archive ul li#journal, .archive ul li#contact, .contact ul li#biography, .contact ul li#journal, .contact ul li#archive {
-  background-color: white;
-  opacity: 0.6;
-}
-
-ul li#biography:hover, ul li#journal:hover, ul li#archive:hover, ul li#contact:hover {
-  background-color: white;
-  opacity: 1.0;
-  background-position: center -30px;
-}
-
-ul#subnav-a, ul#subnav-b, ul#subnav-c, ul#subnav-d {
+ul#subnav-a,
+ul#subnav-b,
+ul#subnav-c,
+ul#subnav-d {
   float: left;
   list-style-type: none;
   margin: 0 0 10px 0;
@@ -892,8 +898,13 @@ ul#subnav-b {
   padding: 0 0 50px 0;
 }
 
-.home ul#subnav-b, .home ul#subnav-c, .home ul#subnav-d, .external ul#subnav-b, .external ul#subnav-c,
-.home ul#subnav-c, .home ul#subnav-d {
+.home ul#subnav-b,
+.home ul#subnav-c,
+.home ul#subnav-d,
+.external ul#subnav-b,
+.external ul#subnav-c,
+.home ul#subnav-c,
+.home ul#subnav-d {
   margin: 0;
   padding: 0 0 10px 0;
 }
@@ -908,16 +919,30 @@ ul#subnav-b {
   padding: 0 0 50px 0;
 }
 
-ul li#twitter, ul li#flickr, ul li#lastfm, ul li#delicious, ul li#slideshare, ul li#virb, ul li#facebook, ul li#vimeo, ul li#wallswaps, ul li#catsizedwhat, ul li#dribbble, ul li#gowalla, ul li#linkedin, ul li#dopplr {
+.external-reference, ul li#twitter,
+ul li#flickr,
+ul li#lastfm,
+ul li#delicious,
+ul li#slideshare,
+ul li#virb,
+ul li#facebook,
+ul li#vimeo,
+ul li#wallswaps,
+ul li#catsizedwhat,
+ul li#dribbble,
+ul li#gowalla,
+ul li#linkedin,
+ul li#dopplr {
   float: left;
-  text-align: center;
   width: 207px;
   padding: 10px;
+  margin: 0 10px 0 0;
+  border: 1px solid #DDD;
+  text-align: center;
   font-size: 13px;
   font-style: italic;
   font-weight: normal;
   color: #d24b21;
-  border: 1px solid #DDD;
   -webkit-box-shadow: 1px 1px 7px rgba(153, 153, 153, 0.2);
   -moz-box-shadow: 1px 1px 7px rgba(153, 153, 153, 0.2);
   box-shadow: 1px 1px 7px rgba(153, 153, 153, 0.2);
@@ -927,12 +952,28 @@ ul li#twitter, ul li#flickr, ul li#lastfm, ul li#delicious, ul li#slideshare, ul
   background: url(http://colly.com/images/site/card.png);
 }
 
-ul li#flickr, ul li#lastfm, ul li#delicious, ul li#slideshare, ul li#facebook, ul li#wallswaps, ul li#virb, ul li#linkedin, ul li#dribbble, ul li#dopplr {
-  margin: 0 10px 0 0;
+.last-external-reference, ul li#twitter,
+ul li#vimeo,
+ul li#gowalla {
+  margin: 0;
 }
 
-ul li#twitter, ul li#vimeo, ul li#gowalla {
-  margin: 0;
+.external-reference:hover, ul li#twitter:hover,
+ul li#flickr:hover,
+ul li#lastfm:hover,
+ul li#delicious:hover,
+ul li#slideshare:hover,
+ul li#virb:hover,
+ul li#facebook:hover,
+ul li#vimeo:hover,
+ul li#wallswaps:hover,
+ul li#catsizedwhat:hover,
+ul li#dribbble:hover,
+ul li#gowalla:hover,
+ul li#linkedin:hover,
+ul li#dopplr:hover {
+  background-color: white;
+  opacity: 1.0;
 }
 
 ul li#twitter a span.label {
@@ -981,11 +1022,6 @@ ul li#linkedin a span.label {
 
 ul li#dopplr a span.label {
   background: url(http://colly.com/images/site/n-snake.png) no-repeat center bottom;
-}
-
-ul li#erskine:hover, ul li#labs:hover, ul li#twitter:hover, ul li#flickr:hover, ul li#lastfm:hover, ul li#delicious:hover, ul li#slideshare:hover, ul li#virb:hover, ul li#facebook:hover, ul li#vimeo:hover, ul li#wallswaps:hover, ul li#catsizedwhat:hover, ul li#dribbble:hover, ul li#gowalla:hover, ul li#linkedin:hover {
-  background-color: white;
-  opacity: 1.0;
 }
 
 /* 7.SITEINFO/FOOTER
