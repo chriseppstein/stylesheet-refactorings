@@ -1,11 +1,4 @@
-// Only supporting ie >= 8, and css3 in webkit and moz
-// It's a tradeoff between bloat and user demographics.
-$legacy-support-for-ie: false;
-$experimental-support-for-opera: false;
-$experimental-support-for-microsoft: false;
-$experimental-support-for-khtml: false;
-@import "compass/css3";
-
+@import "support";
 label, input[type=button], input[type=submit], button                 
                       {cursor: pointer}
 input[type="radio"]   {vertical-align: text-bottom}

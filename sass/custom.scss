@@ -1,3 +1,5 @@
+@import "support";
+
 body              {background:#f1f1f1}
 
 // Header elements.
@@ -15,15 +17,15 @@ body              {background:#f1f1f1}
 #Nav              {height:45px;background:transparent;
   ul              {list-style:none;margin:10px 0 0 7px;
     li            {display:inline;
-      a           {list-style-type:none;display:inline-block;padding:10px 20px;color:#a1a1a1;background:#f4f4f4;border:1px solid #d1d1d1;text-transform:uppercase;-moz-border-radius:4px;-webkit-border-radius:4px;-moz-box-shadow:0 1px 3px #f1f1f1;-webkit-box-shadow:0 1px 3px #f1f1f1;
+      a           {list-style-type:none;display:inline-block;padding:10px 20px;color:#a1a1a1;background:#f4f4f4;border:1px solid #d1d1d1;text-transform:uppercase;@include border-radius(4px);@include box-shadow(#f1f1f1, 0, 1px, 3px);
 } } } }
 
 body#Dashboard li#NavDashboard a, body#RuleBuilder li#NavRuleBuilder a, #Nav ul li a:hover 
-                  {color:#4a4a4a;background:#fefefe;border:1px solid #d1d1d1;-moz-border-radius:4px;-webkit-border-radius:4px;-moz-box-shadow:0 1px 3px #f1f1f1;-webkit-box-shadow:0 1px 3px #f1f1f1}
+                  {color:#4a4a4a;background:#fefefe;border:1px solid #d1d1d1;@include border-radius(4px);@include box-shadow(#f1f1f1,0,1px,3px)}
 
 // Main elements.
 // --------------------------------------------------------------
-#Main             {width:auto;background:#fff;-moz-border-radius:5px;-webkit-border-radius:5px;padding: .5em .25em 1em;margin: 0 0 1em 0}
+#Main             {width:auto;background:#fff;@include border-radius(5px);padding: .5em .25em 1em;margin: 0 0 1em 0}
 article, .article {width:98%;min-height:650px}
 section, .section {display:inline-block;padding:2em}
 article section, .article .section 
@@ -77,17 +79,17 @@ ul.in-line {
 
 // Form and buttons.
 // --------------------------------------------------------------
-.btn {background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#ffffff), color-stop(0.55, #ffffff), to(#ededed));background:-moz-linear-gradient(center top, #ffffff, #ffffff 55%, #ededed);outline:none;border:1px solid #ccc;-webkit-border-radius:4px;-moz-border-radius:5px;-webkit-box-shadow:#ccc 0px 0px 2px;-moz-box-shadow:#ccc 0px 0px 2px;text-shadow:#fff 1px 1px;color:#0089DC;margin:0 .5em 0 .2em;padding:.5em .75em;display:inline-block;font-size:1.2em}
+.btn {@include linear-gradient(color-stops(#ffffff, #ffffff 55%, #ededed),center top);outline:none;border:1px solid #ccc;@include border-radius(4px);@include box-shadow(#ccc,0px,0px,2px);text-shadow:#fff 1px 1px;color:#0089DC;margin:0 .5em 0 .2em;padding:.5em .75em;display:inline-block;font-size:1.2em}
 
 a.btn, button.btn {
-  &:hover {background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#f1f1f1), color-stop(0.55, #f1f1f1), to(#ddd));background:-moz-linear-gradient(center top, #f1f1f1, #f1f1f1 55%, #ddd);color:#333;-webkit-box-shadow:#0089DC 0px 0px 3px;-moz-box-shadow:#0089DC 0px 0px 2px}
-  &:active, &:focus {background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#ddd), color-stop(0.55, #ddd), to(#bbb));background:-moz-linear-gradient(center top, #ddd, #ddd 55%, #bbb);text-shadow:#f7f7f7 1px 1px;color:#777;-webkit-box-shadow:#ccc 0px 0px 2px;-moz-box-shadow:#ccc 0px 0px 2px}
+  &:hover {@include linear-gradient(color-stops(#f1f1f1, #f1f1f1 55%, #ddd),center top);color:#333;@include box-shadow(#0089DC,0px,0px,3px)}
+  &:active, &:focus {@include linear-gradient(color-stops(#ddd, #ddd 55%, #bbb),center top);text-shadow:#f7f7f7 1px 1px;color:#777;@include box-shadow(#ccc,0px,0px,2px)}
 }
                   
 a.btn-default,
 button.btn-default{
-                   background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#ffffff), color-stop(0.55, #ffffff), to(#ededed));background:-moz-linear-gradient(center top, #ffffff, #ffffff 55%, #ededed);outline:none;border:1px solid #ccc;-webkit-border-radius:4px;-moz-border-radius:5px;-webkit-box-shadow:#ccc 0px 0px 2px;-moz-box-shadow:#ccc 0px 0px 2px;text-shadow:#fff 1px 1px;color:#0089DC;margin:0 .5em 0 .2em;padding:.5em .75em;display:inline-block;font-size:1.2em;
-  &:hover         {background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#f1f1f1), color-stop(0.55, #f1f1f1), to(#ddd));background:-moz-linear-gradient(center top, #f1f1f1, #f1f1f1 55%, #ddd);color:#333;-webkit-box-shadow:#0089DC 0px 0px 3px;-moz-box-shadow:#0089DC 0px 0px 2px}
+                   @include linear-gradient(color-stops(#ffffff, #ffffff 55%, #ededed),center top);outline:none;border:1px solid #ccc;@include border-radius(4px);@include box-shadow(#ccc, 0px, 0px, 2px);text-shadow:#fff 1px 1px;color:#0089DC;margin:0 .5em 0 .2em;padding:.5em .75em;display:inline-block;font-size:1.2em;
+  &:hover         {@include linear-gradient(color-stops(#f1f1f1, #f1f1f1 55%, #ddd),center top);color:#333;@include box-shadow(#0089DC,0px,0px,3px)}
 }
 
 .btn-admin        {margin-left:10px;line-height:1.8;color:#930}
@@ -102,12 +104,12 @@ input.readonly:hover, input:focus
 // Miscellaneous
 // --------------------------------------------------------------
 a.tag, ul li a.tag 
-                  {background:#eee url(/images/tag-close.png) 7px -16px no-repeat;font-size:small;display:inline-block;padding:.1em 10px .1em 28px;height:21px;line-height:22px;-moz-border-radius:3px;-webkit-border-radius:3px;color:#0089DC
+                  {background:#eee url(/images/tag-close.png) 7px -16px no-repeat;font-size:small;display:inline-block;padding:.1em 10px .1em 28px;height:21px;line-height:22px;@include border-radius(3px);color:#0089DC
 }
 a:hover.tag, ul li a:hover.tag 
                   {background-position:7px 6px;background-color:#f3f3f3}
                     
-.round            {-moz-border-radius:4px;-webkit-border-radius:4px}
-.very-round       {-moz-border-radius:12px;-webkit-border-radius:12px}
+.round            {@include border-radius(4px)}
+.very-round       {@include border-radius(12px)}
 a.icn             {display:block;overflow:hidden;text-indent:-999px}
 .quiet            {color:#d1d1d1}
