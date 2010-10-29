@@ -48,7 +48,7 @@ body, #Header, #Logo, #Search, #Nav, #Main, .article, article, .section, section
 
 #Footer { height: 120px; width: 960px; }
 
-.full, .half, .one-third, .two-thirds, .one-fourth, .three-fourths, .one-fifth, .two-fifths, .three-fifths, .four-fifths { display: inline; float: left; margin: 0 1%; }
+.col, .full, .half, .one-third, .two-thirds, .one-fourth, .three-fourths, .one-fifth, .two-fifths, .three-fifths, .four-fifths { display: inline; float: left; margin: 0 1%; }
 
 .first { margin-left: 0; }
 

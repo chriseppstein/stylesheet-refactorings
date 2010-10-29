@@ -76,29 +76,36 @@ body#SectionSeven ul li a
 
 // Layout Helper Classes
 // --------------------------------------------------------------------------------
-.full, .half, .one-third, .two-thirds, .one-fourth, .three-fourths, .one-fifth, .two-fifths, .three-fifths, .four-fifths                        
-                {display:inline;float:left;margin:0 1%}
+$grid-gutter: 2%;
+$grid-width: 100%;
+.col            {display:inline;float:left;margin:0 $grid-gutter/2}
+.full           {@extend .col;}
+
+// Positional gutter adjustments
 .first          {margin-left:0}
 .last           {margin-right:0}
 
+// 2 Columns 
+.half           {@extend .col;width: $grid-width * 1/2 - $grid-gutter}
+
 // 3 Columns
-.half           {width:48%}
-.one-third      {width:31.333%}
-.two-thirds     {width:64.665%}
+.one-third      {@extend .col;width: $grid-width * 1/3 - $grid-gutter}
+.two-thirds     {@extend .col;width: $grid-width * 2/3 - $grid-gutter - 0.002%} // adjustement handles subpixel rounding
 
 // 4 Columns
-.one-fourth     {width:23%}
-.three-fourths  {width:72.85%}
+.one-fourth     {@extend .col;width: $grid-width * 1/4 - $grid-gutter}
+.three-fourths  {@extend .col;width: $grid-width * 3/4 - $grid-gutter - 0.15%} // adjustement handles rounding
 
 // 5 Columns
-.one-fifth      {width:18%}
-.two-fifths     {width:37.95%}
-.three-fifths   {width:58%}
-.four-fifths    {width:78%}
+.one-fifth      {@extend .col;width: $grid-width * 1/5 - $grid-gutter}
+.two-fifths     {@extend .col;width: $grid-width * 2/5 - $grid-gutter - 0.05%} // adjustement handles rounding
+.three-fifths   {@extend .col;width: $grid-width * 3/5 - $grid-gutter}
+.four-fifths    {@extend .col;width: $grid-width * 4/5 - $grid-gutter}
 
-.short          {height:24px}
-.tall           {height:36px}
-.giant          {height:96px}
+$short-height: 24px;
+.short          {height:$short-height}
+.tall           {height:$short-height * 1.5}
+.giant          {height:$short-height * 4}
 
 .left           {float:left}
 .right          {float:right}
