@@ -18,7 +18,7 @@ body              {background:#f1f1f1}
       a           {list-style-type:none;display:inline-block;padding:10px 20px;color:#a1a1a1;background:#f4f4f4;border:1px solid #d1d1d1;text-transform:uppercase;@include border-radius(4px);@include box-shadow(#f1f1f1, 0, 1px, 3px);
 } } } }
 
-body#Dashboard li#NavDashboard a, body#RuleBuilder li#NavRuleBuilder a, #Nav ul li a:hover 
+body#Dashboard li#NavDashboard a, body#RuleBuilder li#NavRuleBuilder a, #Nav ul li a:hover
                   {color:#4a4a4a;background:#fefefe;border:1px solid #d1d1d1;@include border-radius(4px);@include box-shadow(#f1f1f1,0,1px,3px)}
 
 // Main elements.
@@ -28,12 +28,12 @@ $article-left-margin: 36%;
 #Main             {width:auto;background:#fff;@include border-radius(5px);padding: .5em .25em 1em;margin: 0 0 1em 0}
 article, .article {width:$site-width;min-height:650px}
 section, .section {display:inline-block;padding:2em}
-article section, .article .section 
+article section, .article .section
                   {padding: 0 .5em;width: $site-width;margin: 0 0 1em 0}
-                  
-aside section, .aside .section 
+
+aside section, .aside .section
                   {padding: 0;margin: .5em}
-                  
+
 .section .aside   {float: left;margin: 0 0 1em 0;width: 34%}
 .section .article {margin: 0 0 1em $article-left-margin;padding:0;width:$site-width - $article-left-margin}
 .section .article.half {margin: 0 0 1em $site-width/2}
@@ -58,9 +58,9 @@ ul.item-grid      {margin:0 auto;
 
 // Sidebar elements.
 // --------------------------------------------------------------
-#Sidebar, aside, .aside 
+#Sidebar, aside, .aside
                   {position:relative;top:0;right:0;margin: 1em 0 0 0}
-                  
+
 // Footer elements.
 // --------------------------------------------------------------
 #Footer           {border-top:1px solid #ddd;color:#777;height:auto;margin:20px 0;width:910px}
@@ -85,7 +85,7 @@ a.btn, button.btn {
   &:hover {@include linear-gradient(color-stops(#f1f1f1, #f1f1f1 55%, #ddd),center top);color:#333;@include box-shadow(#0089DC,0px,0px,3px)}
   &:active, &:focus {@include linear-gradient(color-stops(#ddd, #ddd 55%, #bbb),center top);text-shadow:#f7f7f7 1px 1px;color:#777;@include box-shadow(#ccc,0px,0px,2px)}
 }
-                  
+
 a.btn-default,
 button.btn-default{
                    @include linear-gradient(color-stops(#ffffff, #ffffff 55%, #ededed),center top);outline:none;border:1px solid #ccc;@include border-radius(4px);@include box-shadow(#ccc, 0px, 0px, 2px);text-shadow:#fff 1px 1px;color:#0089DC;margin:0 .5em 0 .2em;padding:.5em .75em;display:inline-block;font-size:1.2em;
@@ -94,21 +94,21 @@ button.btn-default{
 
 .btn-admin        {margin-left:10px;line-height:1.8;color:#930}
 .action-add,
-.action-remove 
+.action-remove
                   {margin-left:1em;line-height:4}
-                  
+
 input.readonly    {background-color:#f2f2f2;color:#0089dc;font-weight:bold}
-input.readonly:hover, input:focus 
+input.readonly:hover, input:focus
                   {background-color:#ffd}
 
 // Miscellaneous
 // --------------------------------------------------------------
-a.tag, ul li a.tag 
+a.tag, ul li a.tag
                   {background:#eee url(/images/tag-close.png) 7px -16px no-repeat;font-size:small;display:inline-block;padding:.1em 10px .1em 28px;height:21px;line-height:22px;@include border-radius(3px);color:#0089DC
 }
-a:hover.tag, ul li a:hover.tag 
+a:hover.tag, ul li a:hover.tag
                   {background-position:7px 6px;background-color:#f3f3f3}
-                    
+
 .round            {@include border-radius(4px)}
 .very-round       {@include border-radius(12px)}
 a.icn             {display:block;overflow:hidden;text-indent:-999px}

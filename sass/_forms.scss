@@ -1,4 +1,4 @@
-label, input[type=button], input[type=submit], button                 
+label, input[type=button], input[type=submit], button
                       {cursor: pointer}
 input[type="radio"]   {vertical-align: text-bottom}
 input[type="checkbox"]
@@ -13,40 +13,40 @@ button                {width: auto;overflow: visible}
 input, textarea       {@include box-shadow(#d6d6cd,0,1px,1px); @include border-radius(3px); border: 1px solid #d4d4cc;}
 
 input, textarea, label, select
-                      {font-size:1.1em;margin: 0 0 8px 0;padding:6px}                   
+                      {font-size:1.1em;margin: 0 0 8px 0;padding:6px}
 
-ul.in-line input, ul.in-line textarea, li select    
+ul.in-line input, ul.in-line textarea, li select
                       {margin: 0}
 
 input:hover, input:active, input:focus,
 textarea:hover, textarea:active, textarea:focus,
-.input-focus, .edit-inline:hover, .edit-inline:focus   
+.input-focus, .edit-inline:hover, .edit-inline:focus
                       {background: #fdfbe4;border-color:#c9c9c0}
 
-input.error, textarea.error     
-                      {border-color:#f1766e;}         
-                      
+input.error, textarea.error
+                      {border-color:#f1766e;}
+
 
 input:active, input:focus,
 textarea:active, textarea:focus,
-.input-focus, input.search:hover, input.search:focus      
+.input-focus, input.search:hover, input.search:focus
                       {@include box-shadow(#6EB6D6,0,0,3px);border-color: #a3e6ff}
 
 .input-simple, .input-simple:hover, .input-simple:focus,
 input[type="radio"], input[type="checkbox"],
-input.edit-inline, textarea.edit-inline 
+input.edit-inline, textarea.edit-inline
                       {@include experimental(box-shadow, 0 0);background:transparent;@include border-radius(0);border:0 none;color: #777}
 
 .placeholder,
-.placeholder.edit-inline:hover        
-                      {color:#bbb}                  
+.placeholder.edit-inline:hover
+                      {color:#bbb}
 input.placeholder:hover,
 textarea.placeholder:hover
                       {color:#dbdbdb}
 input.placeholder:focus
                       {color:#444}
 
-input.search, input.search:hover, input.search:focus    
+input.search, input.search:hover, input.search:focus
                       {background-image: url(/images/search.png);background-position: 7px 5px;background-repeat: no-repeat}
 input.search          {@include border-radius(6px);border-color:#e2e4e6;@include box-shadow(#ddd,0,1px,0);font-size:1.2em;padding: 4px 5px 4px 34px;margin:.3em 0 1em 0; width: 200px;}
 input.search:hover    {border-color: #ddd}
@@ -58,23 +58,23 @@ input.search:hover    {border-color: #ddd}
 .panel .btn, .tray .btn {
   border-color: #ccc;
 }
-.btn:hover, .btn:focus            
+.btn:hover, .btn:focus
                       {@include box-shadow(#129ceb,0px,0px,2px);background:#e6e9eb;@include linear-gradient(color-stops(#f7f7f7, #f6f6f7 55%, #e6e9eb),center top);color:#45484b;text-shadow:#fff 1px 1px;border-color:#c9c9c0}
 
 .btn-primary          {@include experimental(box-shadow, 0 0 0);background:#e67646;@include linear-gradient(color-stops(#eb9972, #e67646 55%, #d2572b),center top);@include border-radius(6px);border-width:1px;border-style:solid;border-color: #e67646 #e67646 #bc6647;font-size: 1.5em;font-weight: 500;color:#fff;text-shadow: #d2572b 1px 1px;padding: .5em .9em}
 .btn-primary:hover,
-.btn-primary:focus    
+.btn-primary:focus
                       {background:#eb9972;@include linear-gradient(color-stops(#f4a980, #eb9972 55%, #e67646),center top);border-color: #eb9972 #eb9972 #d2572b;color:#fff;text-shadow: #d2572b 1px 1px}
 
 .btn-secondary,
 .btn-secondary:hover,
 a.btn-secondary,
-a.btn-secondary:hover  
+a.btn-secondary:hover
                       {background:#f4e34e;@include linear-gradient(color-stops(#fdf07a, #f4e34e 45%, #ecc90a),center top);border: 1px solid #ecc90a;color:#a46a44;text-shadow: #fff7b1 1px 1px}
 header#Global, #Auth  {
-  .btn-secondary      {@include experimental(box-shadow, 0 0 0)} 
-} 
-                                    
+  .btn-secondary      {@include experimental(box-shadow, 0 0 0)}
+}
+
 .btn-secondary:hover,
 a.btn-secondary:hover,
 .btn-secondary:focus,
@@ -113,6 +113,6 @@ fieldset              {
 
 // Special Form sizes
 // --------------------------------------------------------------
-input.mini, 
+input.mini,
 input.dm              {width : 20px;} // use for really small inputs like date and month
 input.yy              {width : 40px;} // use for year inputs

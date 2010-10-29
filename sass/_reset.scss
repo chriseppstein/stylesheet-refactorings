@@ -1,14 +1,14 @@
 // ----------------------------------------------------
-// 
+//
 // Description:  Global reset all elements for browsers
 // Filename:     reset.css
 // Version:      1.0
 // Created:      2008.01.14
 // LastModified: 2010.01.05 (cwg)
-// 
+//
 // ----------------------------------------------------
-html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, article, aside, code, del, dfn, em, img, q, dl, dt, dd, ol, ul, li, 
-fieldset, form, label, legend, section, table, caption, tbody, tfoot, thead, tr, th, td 
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, article, aside, code, del, dfn, em, img, q, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, section, table, caption, tbody, tfoot, thead, tr, th, td
                   {@include reset-box-model; @include reset-font; @include reset-list-style;} //CE: I think it's strange to apply a list reset to all these elements.
 body              {line-height:1.1618;}
 table             {border-collapse:separate; border-spacing:0;}

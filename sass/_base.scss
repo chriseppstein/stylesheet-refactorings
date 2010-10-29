@@ -1,7 +1,7 @@
 // Use this class on any .span / container to see the grid.
 .showgrid       {background:url(/images/grid.png)}
 
-.container      {width:96%; margin:0 2%} 
+.container      {width:96%; margin:0 2%}
 .fixed          {max-width:980px; margin:0 auto} // Use for a scalable, centered model w/a minimum width
 .wrapper, .full {width:98%}
 
@@ -14,7 +14,7 @@ body            {font-size:87.5%}
 
 // Headings
 // --------------------------------------------------------------
-h1, h2, h3, h4, h5, h6 
+h1, h2, h3, h4, h5, h6
                 {font-weight:bold;color:#4a4a4a}
 h3, h4, h5, h6  {color:#5d5d5d}
 
@@ -30,7 +30,7 @@ p               {background:#ddd; margin-bottom:1em; padding:.75em}
 
 // Structural elements
 // --------------------------------------------------------------
-body, #Header, #Logo, #Search, #Nav, #Main, .article, article, .section, section, #Sidebar, aside, .box, #Footer 
+body, #Header, #Logo, #Search, #Nav, #Main, .article, article, .section, section, #Sidebar, aside, .box, #Footer
                 {margin:0;padding:0;background:#fff}
 
 // Header elements.
@@ -45,8 +45,8 @@ body, #Header, #Logo, #Search, #Nav, #Main, .article, article, .section, section
 // Main navigation elements.
 // --------------------------------------------------------------
 // Set an ID on the body tag and use these to highlight active navigation
-body#SectionOne ul li a, body#SectionTwo ul li a, body#SectionThree ul li a, 
-body#SectionFour ul li a, body#SectionFive ul li a, body#SectionSix ul li a, 
+body#SectionOne ul li a, body#SectionTwo ul li a, body#SectionThree ul li a,
+body#SectionFour ul li a, body#SectionFive ul li a, body#SectionSix ul li a,
 body#SectionSeven ul li a
                 {}
 
@@ -55,16 +55,16 @@ body#SectionSeven ul li a
 #Main           {width:960px}
 .article, article, .section, section
                 {}
-.section, section     
+.section, section
                 {padding:10px;margin-bottom:1.5em}
 
-#Main section:after, #Main .section:after, #Main article:after, #Main .article:after  
+#Main section:after, #Main .section:after, #Main article:after, #Main .article:after
                 {content:".";display:block;height:0;clear:both;visibility:hidden}// Clears the .section element and forces everything below it
 
 
 // Sidebar elements.
 // --------------------------------------------------------------
-#Sidebar, aside, .aside 
+#Sidebar, aside, .aside
                 {float:right;width:230px}
 
 
@@ -85,7 +85,7 @@ $grid-width: 100%;
 .first          {margin-left:0}
 .last           {margin-right:0}
 
-// 2 Columns 
+// 2 Columns
 .half           {@extend .col;width: $grid-width * 1/2 - $grid-gutter}
 
 // 3 Columns
