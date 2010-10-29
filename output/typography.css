@@ -1,0 +1,90 @@
+code, pre { font-family: "Courier New", monospace, serif; font-size: 1em; }
+
+body, select, input, textarea { color: #6b6b6b; }
+
+h1, h2, h3, h4, h5, h6 { font-weight: bold; text-rendering: optimizeLegibility; }
+
+table { font-size: inherit; font: 100%; }
+
+small { font-size: 85%; }
+
+strong, th { font-weight: bold; }
+
+td, td img { vertical-align: top; }
+
+sub { vertical-align: sub; font-size: smaller; }
+
+sup { vertical-align: super; font-size: smaller; }
+
+pre { padding: 15px; white-space: pre; white-space: pre-wrap; white-space: pre-line; word-wrap: break-word; }
+
+a:link { -webkit-tap-highlight-color: #FF5E99; }
+
+/*  j.mp/webkit-tap-highlight-color */
+/* Default typography
+-------------------------------------------------------------- */
+body { font-size: 76%; line-height: 1.22; }
+
+body, select, input, textarea { font-family: "Lucida Grande", "Lucida Sans", 'Helvetica Neue', Helvetica, Verdana, sans-serif; }
+
+h1, h2, h3, h4, h5, h6 { font-family: 'Helvetica Neue', Helvetica, Tahoma, sans-serif; text-shadow: 1px 1px #fdfdfd; }
+
+body p { font-size: 1.1em; line-height: 1.3; }
+
+label { color: #6a6a6a; }
+
+select { font-size: 1em; padding: 0; }
+
+/* Special helpers
+-------------------------------------------------------------- */
+.quiet, address { color: #bcc0c4; }
+
+address { font-style: normal; }
+
+.loud { color: #4a4a4a; font-size: 1.4em; line-height: 1.5; }
+
+.bitty { font-size: 11px; }
+
+.tiny { font-size: .875em; }
+
+.sm { font-size: 1em; }
+
+.sm-med { font-size: 1.1em; }
+
+.med { font-size: 1.2em; }
+
+.med-lg { font-size: 1.3em; }
+
+.lg { font-size: 1.4em; }
+
+.x-lg { font-size: 2em; }
+
+.fancy { font-family: Georgia, "Times New Roman", Times, serif; font-style: italic; text-shadow: 1px 1px #fff; }
+
+/* Colors and sizes for Headings & article Headings
+-------------------------------------------------------------- */
+h1 { color: #4a4a4a; font-size: 2.2em; }
+
+h2 { color: #5a5a5a; font-size: 1.6em; }
+
+h3 { color: #6a6a6a; font-size: 1.3em; font-weight: 500; }
+
+h4 { color: #7a7a7a; font-size: 1.15em; font-weight: 400; }
+
+h5 { color: #7a7a7a; font-size: 1.1em; }
+
+h6 { font-size: 1em; }
+
+/* Colors for links
+-------------------------------------------------------------- */
+a { color: #47a2d8; text-decoration: none; }
+
+a:hover, a:focus { color: #79b6da; }
+
+h2 a, h3 a, h4 a, h5 a { color: #6a6a6a; }
+
+h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover { color: #45484b; text-shadow: 1px 1px #fff; }
+
+a.quiet { color: #777; }
+
+a.quiet:hover { color: #555; }
