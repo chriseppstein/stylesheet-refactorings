@@ -23,4 +23,6 @@ q:after           {content:"";}
 blockquote, q     {quotes:"" "";}
 a img             {border:none;}
 
-h1 img, h2 img, h3 img, h4 img, h5 img, h6 img {margin:0}
+h1, h2, h3, h4, h5, h6 {
+  img {margin:0}
+}

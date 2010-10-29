@@ -59,21 +59,13 @@ header#Global .btn-secondary, #Auth .btn-secondary { -moz-box-shadow: 0 0 0; -we
 label { display: block; margin-bottom: 5px; padding: 0 2px; }
 
 fieldset ul { margin: 0; padding: 0 0 1em; }
-
 fieldset ul ul { margin: 0 .7em; }
-
 fieldset ul li { padding: 7px 0 5px; margin: 0 5px 2px; }
-
 fieldset ul li input, fieldset ul li textarea, fieldset ul li select { margin-bottom: 0; }
-
 fieldset ul li li { margin: 0 .3em .3em; }
-
 fieldset ul ul.in-line { margin: 0; }
-
 fieldset ul.in-line li { margin: 0 .3em; vertical-align: middle; }
-
 fieldset ul.in-line li label { padding: 4px 4px 0; margin: 0; }
-
 fieldset label input { margin: 0 5px 0 0; }
 
 input.mini, input.dm { width: 20px; }
