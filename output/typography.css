@@ -20,9 +20,6 @@ pre { padding: 15px; white-space: pre; white-space: pre-wrap; white-space: pre-l
 
 a:link { -webkit-tap-highlight-color: #FF5E99; }
 
-/*  j.mp/webkit-tap-highlight-color */
-/* Default typography
--------------------------------------------------------------- */
 body { font-size: 76%; line-height: 1.22; }
 
 body, select, input, textarea { font-family: "Lucida Grande", "Lucida Sans", 'Helvetica Neue', Helvetica, Verdana, sans-serif; }
@@ -35,8 +32,6 @@ label { color: #6a6a6a; }
 
 select { font-size: 1em; padding: 0; }
 
-/* Special helpers
--------------------------------------------------------------- */
 .quiet, address { color: #bcc0c4; }
 
 address { font-style: normal; }
@@ -61,8 +56,6 @@ address { font-style: normal; }
 
 .fancy { font-family: Georgia, "Times New Roman", Times, serif; font-style: italic; text-shadow: 1px 1px #fff; }
 
-/* Colors and sizes for Headings & article Headings
--------------------------------------------------------------- */
 h1 { color: #4a4a4a; font-size: 2.2em; }
 
 h2 { color: #5a5a5a; font-size: 1.6em; }
@@ -75,8 +68,6 @@ h5 { color: #7a7a7a; font-size: 1.1em; }
 
 h6 { font-size: 1em; }
 
-/* Colors for links
--------------------------------------------------------------- */
 a { color: #47a2d8; text-decoration: none; }
 
 a:hover, a:focus { color: #79b6da; }

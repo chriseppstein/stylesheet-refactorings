@@ -1,19 +1,19 @@
-/* Use this class on any .span / container to see the grid. */
+// Use this class on any .span / container to see the grid.
 .showgrid 			{background:url(/images/grid.png)}
 
 .container			{width:96%; margin:0 2%} 
-.fixed					{max-width:980px; margin:0 auto} /*Use for a scalable, centered model w/a minimum width*/
+.fixed					{max-width:980px; margin:0 auto} // Use for a scalable, centered model w/a minimum width
 .wrapper, .full	{width:98%}
 
-/* Global settings
--------------------------------------------------------------- */
+// Global settings
+// --------------------------------------------------------------
 body, p, h1, h2, h3, div, section, article
 								{font-family:lucida,'Lucida Grande','Helvetica Neue', Helvetica, Arial, sans-serif;color:#2a2a2a;line-height:1.618em;vertical-align:baseline}
 body 						{font-size:87.5%}
 
 
-/* Headings
--------------------------------------------------------------- */
+// Headings
+// --------------------------------------------------------------
 h1, h2, h3, h4, h5, h6 
 								{font-weight:bold;color:#4a4a4a}
 h3, h4, h5, h6	{color:#5d5d5d}
@@ -28,13 +28,13 @@ h1, h2, h3			{padding:.25em}
 h2							{background:#222; color:#f8f8f8}
 p								{background:#ddd; margin-bottom:1em; padding:.75em}
 
-/* Structural elements
--------------------------------------------------------------- */
+// Structural elements
+// --------------------------------------------------------------
 body, #Header, #Logo, #Search, #Nav, #Main, .article, article, .section, section, #Sidebar, aside, .box, #Footer 
 								{margin:0;padding:0;background:#fff}
 
-/* Header elements.
--------------------------------------------------------------- */
+// Header elements.
+// --------------------------------------------------------------
 #Header 				{}
 #Logo 					{float:left;width:150px;height:58px;padding:5px 10px}
 #Search 				{float:left;width:480px;margin:0 10px}
@@ -42,16 +42,16 @@ body, #Header, #Logo, #Search, #Nav, #Main, .article, article, .section, section
 #Nav 						{}
 
 
-/* Main navigation elements.
--------------------------------------------------------------- */
-/* 	Set an ID on the body tag and use these to highlight active navigation */
+// Main navigation elements.
+// --------------------------------------------------------------
+// Set an ID on the body tag and use these to highlight active navigation
 body#SectionOne ul li a, body#SectionTwo ul li a, body#SectionThree ul li a, 
 body#SectionFour ul li a, body#SectionFive ul li a, body#SectionSix ul li a, 
 body#SectionSeven ul li a
 								{}
 
-/* Main content areas that hold articles and section elements.
--------------------------------------------------------------- */
+// Main content areas that hold articles and section elements.
+// --------------------------------------------------------------
 #Main 					{width:960px}
 .article, article, .section, section
 								{}
@@ -59,38 +59,38 @@ body#SectionSeven ul li a
 								{padding:10px;margin-bottom:1.5em}
 
 #Main section:after, #Main .section:after, #Main article:after, #Main .article:after 	
-								{content:".";display:block;height:0;clear:both;visibility:hidden}/* Clears the .section element and forces everything below it */
+								{content:".";display:block;height:0;clear:both;visibility:hidden}// Clears the .section element and forces everything below it
 
 
-/* Sidebar elements.
--------------------------------------------------------------- */
+// Sidebar elements.
+// --------------------------------------------------------------
 #Sidebar, aside, .aside	
 								{float:right;width:230px}
 
 
-/* Footer elements.
--------------------------------------------------------------- */
+// Footer elements.
+// --------------------------------------------------------------
 #Footer					{height:120px;width:960px}
 
 
 
-/* Layout Helper Classes
---------------------------------------------------------------------------------*/
+// Layout Helper Classes
+// --------------------------------------------------------------------------------
 .full, .half, .one-third, .two-thirds, .one-fourth, .three-fourths, .one-fifth, .two-fifths, .three-fifths, .four-fifths												
 								{display:inline;float:left;margin:0 1%}
 .first					{margin-left:0}
 .last						{margin-right:0}
 
-/* 3 Columns */
+// 3 Columns
 .half						{width:48%}
 .one-third			{width:31.333%}
 .two-thirds			{width:64.665%}
 
-/* 4 Columns */
+// 4 Columns
 .one-fourth			{width:23%}
 .three-fourths	{width:72.85%}
 
-/* 5 Columns */
+// 5 Columns
 .one-fifth			{width:18%}
 .two-fifths			{width:37.95%}
 .three-fifths		{width:58%}
@@ -104,7 +104,7 @@ body#SectionSeven ul li a
 .right 					{float:right}
 .hidden					{display:none}
 
-/* Clearfix for clearing floated elements */
+// Clearfix for clearing floated elements
 .clearfix:after	{clear: both; content: '.'; display: block; visibility: hidden; height: 0}
 .clearfix				{display: inline-block}
 * html .clearfix{height: 1%}

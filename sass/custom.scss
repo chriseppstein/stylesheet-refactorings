@@ -1,7 +1,7 @@
 body 							{background:#f1f1f1}
 
-/* Header elements.
--------------------------------------------------------------- */
+// Header elements.
+// --------------------------------------------------------------
 #Header .gray 		{color:#8a8a8a;font-weight:normal}
 #Logo 						{float:left;width:160px;height:58px;padding:5px 10px;margin:0 40px 10px 0}
 #Logo img 				{
@@ -10,8 +10,8 @@ body 							{background:#f1f1f1}
 #Logo h2 					{font-size:1em}
 #Logo p 					{}
 
-/* Main navigation elements.
--------------------------------------------------------------- */
+// Main navigation elements.
+// --------------------------------------------------------------
 #Nav 							{height:45px;background:transparent}
 #Nav ul 					{list-style:none;margin:10px 0 0 7px}
 #Nav ul li 				{display:inline}
@@ -20,8 +20,8 @@ body 							{background:#f1f1f1}
 body#Dashboard li#NavDashboard a, body#RuleBuilder li#NavRuleBuilder a, #Nav ul li a:hover 
 									{color:#4a4a4a;background:#fefefe;border:1px solid #d1d1d1;-moz-border-radius:4px;-webkit-border-radius:4px;-moz-box-shadow:0 1px 3px #f1f1f1;-webkit-box-shadow:0 1px 3px #f1f1f1}
 
-/* Main elements.
--------------------------------------------------------------- */
+// Main elements.
+// --------------------------------------------------------------
 #Main 						{width:auto;background:#fff;-moz-border-radius:5px;-webkit-border-radius:5px;padding: .5em .25em 1em;margin: 0 0 1em 0}
 article, .article {width:98%;min-height:650px}
 section, .section {display:inline-block;padding:2em}
@@ -35,34 +35,34 @@ aside section, .aside .section
 .section .article {margin: 0 0 1em 36%;padding:0;width:62%}
 .section .article.half {margin: 0 0 1em 49%}
 
-/* 4 Cols */
+// 4 Cols
 .one-fourth 			{width:24.5%}
 .half 						{width:49%}
 .three-fourths 		{width:73.5%}
 
-/* 5 Cols */
+// 5 Cols
 .one-fifth 				{width:21%}
 .two-fifths 			{width:39.2%}
 .three-fifths 		{width:58.8%}
 .four-fifths 			{width:77%}
 
-/* Grid display elements.
--------------------------------------------------------------- */
+// Grid display elements.
+// --------------------------------------------------------------
 ul.item-grid 			{margin:0 auto}
 ul.item-grid li 	{float:left;background:#f3f3f3;display:inline-block;width:30%;margin:0 .5em 1.5em .5em;padding:.5em;text-align:center}
 ul.item-grid li li {width:auto;margin:0}
 
-/* Sidebar elements.
--------------------------------------------------------------- */
+// Sidebar elements.
+// --------------------------------------------------------------
 #Sidebar, aside, .aside 
 									{position:relative;top:0;right:0;margin: 1em 0 0 0}
 									
-/* Footer elements.
--------------------------------------------------------------- */
+// Footer elements.
+// --------------------------------------------------------------
 #Footer 					{border-top:1px solid #ddd;color:#777;height:auto;margin:20px 0;width:910px}
 
-/* Global calls to action.
--------------------------------------------------------------- */
+// Global calls to action.
+// --------------------------------------------------------------
 .actions 					{border-top: 1px solid #ddd}
 ul.actions, ul.in-line 
 									{width: 98%;margin:0 auto;padding:1em .5em 0 .5em;list-style:none}
@@ -70,8 +70,8 @@ ul.actions li, ul.in-line li, ul.in-line li
 									{display:inline-block;list-style-type:none}
 .center 					{width:auto;margin:auto;text-align:center}
 
-/* Form and buttons.
--------------------------------------------------------------- */
+// Form and buttons.
+// --------------------------------------------------------------
 .btn 							{background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#ffffff), color-stop(0.55, #ffffff), to(#ededed));background:-moz-linear-gradient(center top, #ffffff, #ffffff 55%, #ededed);outline:none;border:1px solid #ccc;-webkit-border-radius:4px;-moz-border-radius:5px;-webkit-box-shadow:#ccc 0px 0px 2px;-moz-box-shadow:#ccc 0px 0px 2px;text-shadow:#fff 1px 1px;color:#0089DC;margin:0 .5em 0 .2em;padding:.5em .75em;display:inline-block;font-size:1.2em}
 
 a:hover.btn, button:hover.btn 
@@ -94,8 +94,8 @@ input.readonly 		{background-color:#f2f2f2;color:#0089dc;font-weight:bold}
 input.readonly:hover, input:focus 
 									{background-color:#ffd}
 
-/* Miscellaneous
--------------------------------------------------------------- */
+// Miscellaneous
+// --------------------------------------------------------------
 a.tag, ul li a.tag 
 									{background:#eee url(/images/tag-close.png) 7px -16px no-repeat;font-size:small;display:inline-block;padding:.1em 10px .1em 28px;height:21px;line-height:22px;-moz-border-radius:3px;-webkit-border-radius:3px;color:#0089DC
 }

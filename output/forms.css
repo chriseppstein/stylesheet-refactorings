@@ -8,8 +8,6 @@ input[type="checkbox"] { vertical-align: bottom; *vertical-align: baseline; }
 
 button { width: auto; overflow: visible; }
 
-/* Global form / input styles
--------------------------------------------------------------- */
 input, textarea { -moz-box-shadow: 0 1px 1px #d6d6cd; -webkit-box-shadow: 0 1px 1px #d6d6cd; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; border: 1px solid #d4d4cc; }
 
 input, textarea, label, select { font-size: 1.1em; margin: 0 0 8px 0; padding: 6px; }
@@ -36,8 +34,6 @@ input.search { -moz-border-radius: 6px; -webkit-border-radius: 6px; border-radiu
 
 input.search:hover { border-color: #ddd; }
 
-/* Buttons buttons, whose got the buttons.
--------------------------------------------------------------- */
 .btn { -moz-box-shadow: 0 1px 0 #fff; -webkit-box-shadow: 0 1px 0 #fff; background: #edeff2; background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fefefe), color-stop(0.55, #edeff2), to(#e4e6e9)); background: -moz-linear-gradient(center top, #fefefe, #edeff2 55%, #e4e6e9); -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px; border: 1px solid #d4d4cc; display: -moz-inline-stack; display: inline-block; color: #6c7786; font-size: 1.1em; padding: 5px 11px; text-shadow: #fefefe 1px 1px; }
 
 .panel .btn, .tray .btn { border-color: #ccc; }
@@ -56,13 +52,10 @@ header#Global .btn-secondary, #Auth .btn-secondary { -moz-box-shadow: 0 0 0; -we
 
 .btn-tertiary { -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; padding: 4px 12px; font-size: 1em; }
 
-/* default active state for all btns */
 .btn:active, a.btn:active, .btn.disabled, a.btn.disabled { background: #bbb; background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#dddddd), color-stop(0.55, #cccccc), to(#bbbbbb)); background: -moz-linear-gradient(center top, #dddddd, #cccccc 55%, #bbbbbb); border-color: #aaa #bbb #bbb; color: #888; text-shadow: #ededed 1px 1px; }
 
 .btn:active:hover, a.btn:active:hover, .btn.disabled:hover, a.btn.disabled:hover { -moz-box-shadow: 0 0 0; -webkit-box-shadow: 0 0 0; color: #8a8a8a; }
 
-/* Form layout
--------------------------------------------------------------- */
 label { display: block; margin-bottom: 5px; padding: 0 2px; }
 
 fieldset ul { margin: 0; padding: 0 0 1em; }
@@ -83,11 +76,6 @@ fieldset ul.in-line li label { padding: 4px 4px 0; margin: 0; }
 
 fieldset label input { margin: 0 5px 0 0; }
 
-/* Special Form sizes
--------------------------------------------------------------- */
 input.mini, input.dm { width: 20px; }
 
-/* use for really small inputs like date and month */
 input.yy { width: 40px; }
-
-/* use for year inputs */
