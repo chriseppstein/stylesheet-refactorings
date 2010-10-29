@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .showgrid { background: url(/images/grid.png); }
 
 .container { width: 96%; margin: 0 2%; }
@@ -84,10 +85,5 @@ body, #Header, #Logo, #Search, #Nav, #Main, .article, article, .section, section
 
 .hidden { display: none; }
 
-.clearfix:after { clear: both; content: '.'; display: block; visibility: hidden; height: 0; }
-
-.clearfix { display: inline-block; }
-
-* html .clearfix { height: 1%; }
-
-.clearfix { display: block; }
+.clearfix { *zoom: 1; }
+.clearfix:after { content: "\0020"; display: block; height: 0; clear: both; overflow: hidden; visibility: hidden; }
