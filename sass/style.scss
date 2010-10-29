@@ -1,7 +1,8 @@
 // Important! Keep this order, DO NOT Change!
-@import 'reset.css';
-@import 'forms.css';
-@import 'typography.css';
-@import 'base.css';
-@import 'custom.css';
+@import "support";
+@import 'reset';
+@import 'forms';
+@import 'typography';
+@import 'base';
+@import 'custom';
 // Feel free to insert other css files after this line (e.g. lightbox, etc)
